@@ -1,0 +1,1455 @@
+
+     _____           _    _____
+    |  __ \         | |  / ____|
+    | |__) |   _ ___| |_| (___   ___ __ _ _ __
+    |  _  / | | / __| __|\___ \ / __/ _` | '_ \
+    | | \ \ |_| \__ \ |_ ____) | (_| (_| | | | |
+    |_|  \_\__,_|___/\__|_____/ \___\__,_|_| |_|
+    Faster nmap scanning with rust.
+
+The config file is expected to be at "/root/.config/rustscan/config.toml"
+
+Your file descriptor limit is higher than the batch size. You can potentially increase the speed by increasing the batch size, but this may cause harm to sensitive servers. Your limit is 1024, try batch size 1023.
+
+The batch size is 500
+Open 443
+Open 80
+Open 5032
+Open 5036
+Open 5031
+Open 5030
+Open 5033
+Open 5040
+Open 5038
+Open 5034
+Open 5037
+Open 5035
+Open 5039
+Starting nmap.
+The Nmap command to be run is -A -vvv -p 443,80,5032,5036,5031,5030,5033,5040,5038,5034,5037,5035,5039 74.125.24.129
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-10-16 06:51 UTC
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 06:51
+Completed NSE at 06:51, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 06:51
+Completed NSE at 06:51, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 06:51
+Completed NSE at 06:51, 0.00s elapsed
+Initiating Ping Scan at 06:51
+Scanning 74.125.24.129 [4 ports]
+Completed Ping Scan at 06:51, 0.04s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 06:51
+Completed Parallel DNS resolution of 1 host. at 06:51, 0.13s elapsed
+DNS resolution of 1 IPs took 0.13s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating SYN Stealth Scan at 06:51
+Scanning 74.125.24.129 [13 ports]
+Discovered open port 5040/tcp on 74.125.24.129
+Discovered open port 5031/tcp on 74.125.24.129
+Discovered open port 5034/tcp on 74.125.24.129
+Discovered open port 80/tcp on 74.125.24.129
+Discovered open port 5032/tcp on 74.125.24.129
+Discovered open port 5038/tcp on 74.125.24.129
+Discovered open port 5030/tcp on 74.125.24.129
+Discovered open port 443/tcp on 74.125.24.129
+Discovered open port 5036/tcp on 74.125.24.129
+Discovered open port 5037/tcp on 74.125.24.129
+Discovered open port 5039/tcp on 74.125.24.129
+Discovered open port 5033/tcp on 74.125.24.129
+Discovered open port 5035/tcp on 74.125.24.129
+Completed SYN Stealth Scan at 06:51, 0.08s elapsed (13 total ports)
+Initiating Service scan at 06:51
+Scanning 13 services on 74.125.24.129
+Service scan Timing: About 7.69% done; ETC: 07:04 (0:11:48 remaining)
+Completed Service scan at 06:53, 71.12s elapsed (13 services on 1 host)
+Initiating OS detection (try #1) against 74.125.24.129
+Retrying OS detection (try #2) against 74.125.24.129
+Initiating Traceroute at 06:53
+Completed Traceroute at 06:53, 6.03s elapsed
+Initiating Parallel DNS resolution of 9 hosts. at 06:53
+Completed Parallel DNS resolution of 9 hosts. at 06:53, 2.39s elapsed
+DNS resolution of 9 IPs took 2.39s. Mode: Async [#: 1, OK: 1, NX: 6, DR: 2, SF: 6, TR: 13, CN: 0]
+NSE: Script scanning 74.125.24.129.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 06:53
+Completed NSE at 06:53, 2.29s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 06:53
+Completed NSE at 06:53, 2.06s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 06:53
+Completed NSE at 06:53, 0.01s elapsed
+Nmap scan report for 74.125.24.129
+Host is up, received reset ttl 109 (0.041s latency).
+Scanned at 2020-10-16 06:51:58 UTC for 88s
+
+PORT     STATE SERVICE              REASON          VERSION
+80/tcp   open  http                 syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=www.google.com:80/uberproxy/&d=http://www.google.com/%3Fupxsrf%3DAO9zFu0CihRwcfkY0slPbNBb87h4qKNtN8zF34hvLlzFZMva7Q:1602831124987&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 435
+|     Set-Cookie: GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:04 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=www.google.com:80/uberproxy/&amp;d=http://www.google.com/%3Fupxsrf%3DAO9zFu0CihRwcfkY0slPbNBb87h4qKNtN8zF34hvLlzFZMva7Q:1602831124987&amp;maxAge=1200&amp;authLevel=2000000&amp;keyIds=zRI,s8x,xSS,Caq
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=www.google.com:80/uberproxy/&d=http://www.google.com/%3Fupxsrf%3DAO9zFu3ELD3BYRWqsuqsDIJu1oTfZgT_j8N02gnO5tOytrGkKw:1602831125077&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 435
+|     Set-Cookie: GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:05 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=www.google.com:80/uberproxy/&amp;d=http://www.google.com/%3Fupxsrf%3DAO9zFu3ELD3BYRWqsuqsDIJu1oTfZgT_j8N02gnO5tOytrGkKw:1602831125077&amp;maxAge=1200&amp;authLevel=2000000&amp;keyIds=zRI,s8x,xSS,Caq
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://login.corp.google.com/request?s=74.125.24.129:80/uberproxy/&d=http://74.125.24.129/%3Fupxsrf%3DAO9zFu1Od2WZCTxywbxYHnOKXuL9U4630uxjcKzDEdfiJVU56w:1602831202722&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+443/tcp  open  ssl/https            syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu28dSwGEjMBVoHdApvqJLbLXAA-s67UuT6im8F_3fINbg:1602831131158&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:11 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu0k6yMZBvKyk1cbIHUoKLwylVgeDYxFO7tuRcZ4phDlAQ:1602831131327&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:11 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://login.corp.google.com/request?s=74.125.24.129:443/uberproxy/&d=https://74.125.24.129/%3Fupxsrf%3DAO9zFu338DPOBooCfQbrQGzzeHfDE8SouHXIL7k2KQym1mpwFQ:1602831203032&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:25+00:00; 0s from scanner time.
+| tls-alpn: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+5030/tcp open  ssl/surfpass?        syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu0pY8OKZdSFVrmnqiR3sncqVpA4SOTtUnMCziPTuFKqug:1602831140511&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu05_boX0ruzj9Z2phHFhfFpDKBUR7a8yAgZzvgH-HT__A:1602831141214&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:21 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:25+00:00; 0s from scanner time.
+5031/tcp open  ssl/dmp?             syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu0AyVMsEuyBaH8Rv-al90A0eFEyXzRtXTCys6TFa1xaew:1602831140477&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu25z7J74x-VX7ZZBU8-ocJZWZu-AzhsIKvucdFEN5liOA:1602831140659&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:25+00:00; 0s from scanner time.
+5032/tcp open  ssl/signacert-agent? syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu1N0zIR2ZgfPIwqQjACxm-CeNP83BDTJxlsbs7yo8_57g:1602831140507&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu2Sts8KwsqU80W3TnLMJU5_7wsvDE5tNr6BCuFAB3HLVg:1602831140682&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:24+00:00; 0s from scanner time.
+5033/tcp open  ssl/jtnetd-server?   syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu0irDINrbijhMwYxA0R4GQGzcBWhWUtxPDIuWARdvADLQ:1602831140470&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu27K3rncyeiysAqrWYGhwlZl1fUg6ETLjt4--0vnzhVTg:1602831140640&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:25+00:00; 0s from scanner time.
+5034/tcp open  ssl/jtnetd-status?   syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu1TmLwpsFuFQkgiiLwxD1vQLRYyA40OLit2S5-hr20A2w:1602831140452&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu3e7LBpWBSmc0V_9T_3qC2CoZfmz2IiHUnCYo-7b3E8xg:1602831141074&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:21 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:24+00:00; 0s from scanner time.
+5035/tcp open  ssl/unknown          syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu0GXd_ivPr9qlWpb19Gbk6SmO0YOGlWvxHX2SUPhyhAUg:1602831140486&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu2iVUQH5TdvF_PxiF_R2GktPKG5awnRS6o_OmB8fHdvZw:1602831140666&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:25+00:00; 0s from scanner time.
+5036/tcp open  ssl/unknown          syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu1rIe85Pf3e9K8ictzrRmkLl_bQQK0rfBhIyrnQ2rBHxQ:1602831140517&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu2BxkNa-_A1UfJKWzhdlyO_ziRXFzdMEjoyWd4reIlOnQ:1602831140698&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:24+00:00; 0s from scanner time.
+5037/tcp open  ssl/unknown          syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu1DNDWAC540w5oGX5wIJYvOA8Etk625AAVAvMtDOYObWQ:1602831140458&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu1_srdAic1JkOwCTb6P0mMuLqA4fL9j5uSJ4KQC1CJvVQ:1602831140639&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:25+00:00; 0s from scanner time.
+5038/tcp open  ssl/unknown          syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu1Y5v2v8pjUWryM-Fmm02W9xA6Oss700X0OwJin_Yer_g:1602831140476&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu1pQLhQi1T8YyYpnOVxCeWLV7oS4Qsz_IURoanMvZN2QA:1602831140655&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:24+00:00; 0s from scanner time.
+5039/tcp open  ssl/unknown          syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu3ph3eeFALEsqW50Y0QfwMt9sLWNk-RD5lF5XQhlIomzw:1602831140454&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu3yhN3Kgd7bvV3MiOHDN7N6dWt9FDIxHor-mct4nrs2Ag:1602831140644&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:24+00:00; 0s from scanner time.
+5040/tcp open  ssl/unknown          syn-ack ttl 109
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu0kmMpiIewzZhJtjK0CA5N6z-F8ERbJHB5MdiCr1OZTew:1602831140542&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|     HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+|   HTTPOptions: 
+|     HTTP/1.0 302 Found
+|     Cache-Control: private
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Location: https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&d=https://uberproxy.corp.google.com/%3Fupxsrf%3DAO9zFu395HE6Z0bJBA69zDhg6RcRqupOA5gqZ1adK50iln3vmw:1602831140719&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq
+|     Content-Length: 459
+|     Strict-Transport-Security: max-age=31536000; includeSubdomains
+|     Set-Cookie: __Secure-GSSO_UberProxy=; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; Secure; HttpOnly
+|     Date: Fri, 16 Oct 2020 06:52:20 GMT
+|     <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>302 Moved</TITLE></HEAD><BODY>
+|     <H1>302 Moved</H1>
+|     document has moved
+|_    HREF="https://login.corp.google.com/request?s=uberproxy.corp.google.com:443/uberproxy/&amp;d=https://uberproxy.corp.google.com/%3Fupxsrf%3D
+| ssl-cert: Subject: commonName=uberproxy.corp.google.com/organizationName=Google LLC/stateOrProvinceName=California/countryName=US/localityName=Mountain View
+| Subject Alternative Name: DNS:uberproxy.corp.google.com, DNS:*.corp.google.com, DNS:*.corp.googleusercontent.com, DNS:*.googleplex.com, DNS:*.login-canary.corp.google.com, DNS:*.login-dev.corp.google.com, DNS:*.login-stable.corp.google.com, DNS:*.login-test.corp.google.com, DNS:*.login.corp.google.com, DNS:*.proxy.googleprod.com, DNS:googleplex.com
+| Issuer: commonName=GTS CA 1O1/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-08T12:16:12
+| Not valid after:  2020-11-17T12:16:12
+| MD5:   58bb bbe4 17a8 7cb0 dcca a286 0302 3541
+| SHA-1: 21c2 0eed 71da e5e4 d2a8 b970 4e5a 0dc2 b903 4cf6
+| -----BEGIN CERTIFICATE-----
+| MIIGpjCCBY6gAwIBAgIQZiVaXMAcQV4CAAAAAHrkXjANBgkqhkiG9w0BAQsFADBC
+| MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+| EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDkwODEyMTYxMloXDTIwMTExNzEyMTYx
+| MlowczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+| DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxIjAgBgNVBAMTGXVi
+| ZXJwcm94eS5jb3JwLmdvb2dsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+| ggEKAoIBAQCp7LeidyL8Hk4vak0CBUV67EUXdKpKdBvvp6TodqY2rdvybE8eUSn8
+| 5qmbp/4j+xw7tlfAWGppUtgxIIO3SE98khfF0azik5/QidIbWxa2SAb3tcJeRKPR
+| fx2RYmsRvNeZLnyJjNRG9WrDuXglbrF8JT2catpTiMG3nenFZIMbQXJkU2Iq51sh
+| Rbt75dttklWst6xCwV1pWluN3eYWg5o+niNuApYdHHtcc0kAtXEXUnA+/NFngOoc
+| d+xr0oz1c+i1oUA8BDPWoUH/Sz/Uh1Rnkh+LJ9rszaVbkGk3EdtMpFWiZigzBn5X
+| 3j3cFdstq3kAXGhAeuFY48jD2D7zHduBAgMBAAGjggNlMIIDYTAOBgNVHQ8BAf8E
+| BAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4E
+| FgQUOCFGcR/0NCaYZyaiS24ce9/zveIwHwYDVR0jBBgwFoAUmNH4bhDrz5vsYJ8Y
+| kBug630J/SswZAYIKwYBBQUHAQEEWDBWMCcGCCsGAQUFBzABhhtodHRwOi8vb2Nz
+| cC5wa2kuZ29vZy9ndHMxbzEwKwYIKwYBBQUHMAKGH2h0dHA6Ly9wa2kuZ29vZy9n
+| c3IyL0dUUzFPMS5jcnQwggEnBgNVHREEggEeMIIBGoIZdWJlcnByb3h5LmNvcnAu
+| Z29vZ2xlLmNvbYIRKi5jb3JwLmdvb2dsZS5jb22CHCouY29ycC5nb29nbGV1c2Vy
+| Y29udGVudC5jb22CECouZ29vZ2xlcGxleC5jb22CHioubG9naW4tY2FuYXJ5LmNv
+| cnAuZ29vZ2xlLmNvbYIbKi5sb2dpbi1kZXYuY29ycC5nb29nbGUuY29tgh4qLmxv
+| Z2luLXN0YWJsZS5jb3JwLmdvb2dsZS5jb22CHCoubG9naW4tdGVzdC5jb3JwLmdv
+| b2dsZS5jb22CFyoubG9naW4uY29ycC5nb29nbGUuY29tghYqLnByb3h5Lmdvb2ds
+| ZXByb2QuY29tgg5nb29nbGVwbGV4LmNvbTAhBgNVHSAEGjAYMAgGBmeBDAECAjAM
+| BgorBgEEAdZ5AgUDMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwucGtpLmdv
+| b2cvR1RTMU8xLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AF6nc/nfVsDn
+| tTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABdG3cFrYAAAQDAEcwRQIhAN9J46YP
+| gyuA/z8fgGrr1BYTC7GDIwa0q3Q61f3gqOOyAiALeBkBHYeprM1pGf/oTibmhH3Y
+| N6opfgrOIaKh5TuAvwB3AAe3XBvlfWj/8bDGHSMVx7rmV3xXlLdq7rxhOhpp06Ic
+| AAABdG3cFr8AAAQDAEgwRgIhALfw5jGdKr4jUg+ZVcsYqoTx+H2BueLtJvm/i1Ax
+| BNMyAiEAki3gc8fyZmYen9gLP35w8EsCFrMyZC5GWdEdIK+YkawwDQYJKoZIhvcN
+| AQELBQADggEBABIoZ45fKP0voVoptmWoLKb2dtFpVTBZ41SXqyPBKBN5ipcYp0PJ
+| ihIsKvO+e096f8cTbOSa+kpqyZQJ63XKQaqSX9f6E9XyLsxzZB2v9JyqBx6NtO4C
+| DrP5ZUxs9J8U3fkEZAS5toNh3s4Y/B66gcS1PbWQkIarviYDiNLNy9Gp4MHdN4+U
+| Pl3j1T0lIYkPP/8Q53ZmsjqWd+2FHj/f0KUUUY5bH5Z86Qni4ieVjD1pdPbV77cC
+| HEGfgkUXKD0n5yHps5BQi8EHpcseqZLqUfLPY9UWhNgcstsaPHa6GY39Q1ZB0YQ8
+| ZKJDmZgpKL2d93aoUqPRPTfVP5GT9IoKOxw=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-10-16T06:53:24+00:00; 0s from scanner time.
+9 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=10/16%Time=5F894315%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,3A1,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20private\r\n
+SF:Content-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy:\x20no-
+SF:referrer\r\nLocation:\x20https://login\.corp\.google\.com/request\?s=ww
+SF:w\.google\.com:80/uberproxy/&d=http://www\.google\.com/%3Fupxsrf%3DAO9z
+SF:Fu0CihRwcfkY0slPbNBb87h4qKNtN8zF34hvLlzFZMva7Q:1602831124987&maxAge=120
+SF:0&authLevel=2000000&keyIds=zRI,s8x,xSS,Caq\r\nContent-Length:\x20435\r\
+SF:nSet-Cookie:\x20GSSO_UberProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:0
+SF:0:00\x20GMT;\x20path=/;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x2020
+SF:20\x2006:52:04\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-
+SF:type\"\x20content=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TI
+SF:TLE></HEAD><BODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20mov
+SF:ed\n<A\x20HREF=\"https://login\.corp\.google\.com/request\?s=www\.googl
+SF:e\.com:80/uberproxy/&amp;d=http://www\.google\.com/%3Fupxsrf%3DAO9zFu0C
+SF:ihRwcfkY0slPbNBb87h4qKNtN8zF34hvLlzFZMva7Q:1602831124987&amp;maxAge=120
+SF:0&amp;authLevel=2000000&amp;keyIds=zRI,s8x,xSS,Caq")%r(HTTPOptions,3A1,
+SF:"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20private\r\nContent-Type
+SF::\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy:\x20no-referrer\r\n
+SF:Location:\x20https://login\.corp\.google\.com/request\?s=www\.google\.c
+SF:om:80/uberproxy/&d=http://www\.google\.com/%3Fupxsrf%3DAO9zFu3ELD3BYRWq
+SF:suqsDIJu1oTfZgT_j8N02gnO5tOytrGkKw:1602831125077&maxAge=1200&authLevel=
+SF:2000000&keyIds=zRI,s8x,xSS,Caq\r\nContent-Length:\x20435\r\nSet-Cookie:
+SF:\x20GSSO_UberProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;
+SF:\x20path=/;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:
+SF:05\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20co
+SF:ntent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><
+SF:BODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HR
+SF:EF=\"https://login\.corp\.google\.com/request\?s=www\.google\.com:80/ub
+SF:erproxy/&amp;d=http://www\.google\.com/%3Fupxsrf%3DAO9zFu3ELD3BYRWqsuqs
+SF:DIJu1oTfZgT_j8N02gnO5tOytrGkKw:1602831125077&amp;maxAge=1200&amp;authLe
+SF:vel=2000000&amp;keyIds=zRI,s8x,xSS,Caq");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F89431B%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20priv
+SF:ate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy:
+SF:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reques
+SF:t\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.c
+SF:orp\.google\.com/%3Fupxsrf%3DAO9zFu28dSwGEjMBVoHdApvqJLbLXAA-s67UuT6im8
+SF:F_3fINbg:1602831131158&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xSS
+SF:,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-age
+SF:=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPro
+SF:xy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20S
+SF:ecure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:11\x2
+SF:0GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20content
+SF:=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY>
+SF:\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\"
+SF:https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.co
+SF:m:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%3
+SF:D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20p
+SF:rivate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Poli
+SF:cy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/req
+SF:uest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy
+SF:\.corp\.google\.com/%3Fupxsrf%3DAO9zFu0k6yMZBvKyk1cbIHUoKLwylVgeDYxFO7t
+SF:uRcZ4phDlAQ:1602831131327&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,
+SF:xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-
+SF:age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Uber
+SF:Proxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x
+SF:20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:11
+SF:\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20cont
+SF:ent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BO
+SF:DY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF
+SF:=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\
+SF:.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsr
+SF:f%3D");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5030-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F894325%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20pri
+SF:vate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy
+SF::\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reque
+SF:st\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.
+SF:corp\.google\.com/%3Fupxsrf%3DAO9zFu0pY8OKZdSFVrmnqiR3sncqVpA4SOTtUnMCz
+SF:iPTuFKqug:1602831140511&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xS
+SF:S,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-ag
+SF:e=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPr
+SF:oxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20
+SF:Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:20\x
+SF:20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conten
+SF:t=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY
+SF:>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\
+SF:"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.c
+SF:om:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%
+SF:3D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20
+SF:private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Pol
+SF:icy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/re
+SF:quest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberprox
+SF:y\.corp\.google\.com/%3Fupxsrf%3DAO9zFu05_boX0ruzj9Z2phHFhfFpDKBUR7a8yA
+SF:gZzvgH-HT__A:1602831141214&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x
+SF:,xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Ube
+SF:rProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\
+SF:x20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:2
+SF:1\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google
+SF:\.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxs
+SF:rf%3D");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5031-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F894324%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20pri
+SF:vate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy
+SF::\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reque
+SF:st\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.
+SF:corp\.google\.com/%3Fupxsrf%3DAO9zFu0AyVMsEuyBaH8Rv-al90A0eFEyXzRtXTCys
+SF:6TFa1xaew:1602831140477&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xS
+SF:S,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-ag
+SF:e=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPr
+SF:oxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20
+SF:Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:20\x
+SF:20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conten
+SF:t=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY
+SF:>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\
+SF:"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.c
+SF:om:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%
+SF:3D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20
+SF:private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Pol
+SF:icy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/re
+SF:quest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberprox
+SF:y\.corp\.google\.com/%3Fupxsrf%3DAO9zFu25z7J74x-VX7ZZBU8-ocJZWZu-AzhsIK
+SF:vucdFEN5liOA:1602831140659&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x
+SF:,xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Ube
+SF:rProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\
+SF:x20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:2
+SF:0\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google
+SF:\.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxs
+SF:rf%3D");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5032-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F894324%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20pri
+SF:vate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy
+SF::\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reque
+SF:st\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.
+SF:corp\.google\.com/%3Fupxsrf%3DAO9zFu1N0zIR2ZgfPIwqQjACxm-CeNP83BDTJxlsb
+SF:s7yo8_57g:1602831140507&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xS
+SF:S,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-ag
+SF:e=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPr
+SF:oxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20
+SF:Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:20\x
+SF:20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conten
+SF:t=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY
+SF:>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\
+SF:"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.c
+SF:om:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%
+SF:3D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20
+SF:private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Pol
+SF:icy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/re
+SF:quest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberprox
+SF:y\.corp\.google\.com/%3Fupxsrf%3DAO9zFu2Sts8KwsqU80W3TnLMJU5_7wsvDE5tNr
+SF:6BCuFAB3HLVg:1602831140682&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x
+SF:,xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Ube
+SF:rProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\
+SF:x20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:2
+SF:0\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google
+SF:\.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxs
+SF:rf%3D");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5033-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F894324%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20pri
+SF:vate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy
+SF::\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reque
+SF:st\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.
+SF:corp\.google\.com/%3Fupxsrf%3DAO9zFu0irDINrbijhMwYxA0R4GQGzcBWhWUtxPDIu
+SF:WARdvADLQ:1602831140470&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xS
+SF:S,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-ag
+SF:e=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPr
+SF:oxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20
+SF:Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:20\x
+SF:20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conten
+SF:t=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY
+SF:>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\
+SF:"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.c
+SF:om:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%
+SF:3D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20
+SF:private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Pol
+SF:icy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/re
+SF:quest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberprox
+SF:y\.corp\.google\.com/%3Fupxsrf%3DAO9zFu27K3rncyeiysAqrWYGhwlZl1fUg6ETLj
+SF:t4--0vnzhVTg:1602831140640&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x
+SF:,xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Ube
+SF:rProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\
+SF:x20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:2
+SF:0\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google
+SF:\.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxs
+SF:rf%3D");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5034-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F894324%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20pri
+SF:vate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy
+SF::\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reque
+SF:st\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.
+SF:corp\.google\.com/%3Fupxsrf%3DAO9zFu1TmLwpsFuFQkgiiLwxD1vQLRYyA40OLit2S
+SF:5-hr20A2w:1602831140452&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xS
+SF:S,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-ag
+SF:e=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPr
+SF:oxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20
+SF:Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:20\x
+SF:20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conten
+SF:t=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY
+SF:>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\
+SF:"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.c
+SF:om:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%
+SF:3D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20
+SF:private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Pol
+SF:icy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/re
+SF:quest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberprox
+SF:y\.corp\.google\.com/%3Fupxsrf%3DAO9zFu3e7LBpWBSmc0V_9T_3qC2CoZfmz2IiHU
+SF:nCYo-7b3E8xg:1602831141074&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x
+SF:,xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Ube
+SF:rProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\
+SF:x20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:2
+SF:1\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google
+SF:\.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxs
+SF:rf%3D");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5035-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F894324%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20pri
+SF:vate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy
+SF::\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reque
+SF:st\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.
+SF:corp\.google\.com/%3Fupxsrf%3DAO9zFu0GXd_ivPr9qlWpb19Gbk6SmO0YOGlWvxHX2
+SF:SUPhyhAUg:1602831140486&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xS
+SF:S,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-ag
+SF:e=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPr
+SF:oxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20
+SF:Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:20\x
+SF:20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conten
+SF:t=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY
+SF:>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\
+SF:"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.c
+SF:om:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%
+SF:3D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20
+SF:private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Pol
+SF:icy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/re
+SF:quest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberprox
+SF:y\.corp\.google\.com/%3Fupxsrf%3DAO9zFu2iVUQH5TdvF_PxiF_R2GktPKG5awnRS6
+SF:o_OmB8fHdvZw:1602831140666&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x
+SF:,xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Ube
+SF:rProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\
+SF:x20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:2
+SF:0\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google
+SF:\.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxs
+SF:rf%3D");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5036-TCP:V=7.80%T=SSL%I=7%D=10/16%Time=5F894324%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20pri
+SF:vate\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Policy
+SF::\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/reque
+SF:st\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberproxy\.
+SF:corp\.google\.com/%3Fupxsrf%3DAO9zFu1rIe85Pf3e9K8ictzrRmkLl_bQQK0rfBhIy
+SF:rnQ2rBHxQ:1602831140517&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x,xS
+SF:S,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max-ag
+SF:e=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_UberPr
+SF:oxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\x20
+SF:Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:20\x
+SF:20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20conten
+SF:t=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><BODY
+SF:>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HREF=\
+SF:"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google\.c
+SF:om:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxsrf%
+SF:3D")%r(HTTPOptions,422,"HTTP/1\.0\x20302\x20Found\r\nCache-Control:\x20
+SF:private\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nReferrer-Pol
+SF:icy:\x20no-referrer\r\nLocation:\x20https://login\.corp\.google\.com/re
+SF:quest\?s=uberproxy\.corp\.google\.com:443/uberproxy/&d=https://uberprox
+SF:y\.corp\.google\.com/%3Fupxsrf%3DAO9zFu2BxkNa-_A1UfJKWzhdlyO_ziRXFzdMEj
+SF:oyWd4reIlOnQ:1602831140698&maxAge=1200&authLevel=2000000&keyIds=zRI,s8x
+SF:,xSS,Caq\r\nContent-Length:\x20459\r\nStrict-Transport-Security:\x20max
+SF:-age=31536000;\x20includeSubdomains\r\nSet-Cookie:\x20__Secure-GSSO_Ube
+SF:rProxy=;\x20expires=Thu,\x2001-Jan-1970\x2000:00:00\x20GMT;\x20path=/;\
+SF:x20Secure;\x20HttpOnly\r\nDate:\x20Fri,\x2016\x20Oct\x202020\x2006:52:2
+SF:0\x20GMT\r\n\r\n<HTML><HEAD><meta\x20http-equiv=\"content-type\"\x20con
+SF:tent=\"text/html;charset=utf-8\">\n<TITLE>302\x20Moved</TITLE></HEAD><B
+SF:ODY>\n<H1>302\x20Moved</H1>\nThe\x20document\x20has\x20moved\n<A\x20HRE
+SF:F=\"https://login\.corp\.google\.com/request\?s=uberproxy\.corp\.google
+SF:\.com:443/uberproxy/&amp;d=https://uberproxy\.corp\.google\.com/%3Fupxs
+SF:rf%3D");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+TCP/IP fingerprint:
+SCAN(V=7.80%E=4%D=10/16%OT=80%CT=%CU=%PV=N%DS=20%DC=T%G=N%TM=5F894366%P=x86_64-pc-linux-gnu)
+SEQ(SP=103%GCD=1%ISR=108%TI=RD%II=Z%TS=21)
+OPS(O1=M596ST11NW8%O2=M596ST11NW8%O3=M596NNT11NW8%O4=M596ST11NW8%O5=M596ST11NW8%O6=M596ST11)
+WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)
+ECN(R=Y%DF=N%TG=80%W=FFFF%O=M596NNSNW8%CC=N%Q=)
+T1(R=Y%DF=N%TG=80%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%TG=80%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+U1(R=N)
+IE(R=Y%DFI=N%TG=80%CD=Z)
+
+Uptime guess: 0.000 days (since Fri Oct 16 06:53:07 2020)
+Network Distance: 20 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Randomized
+
+Host script results:
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   ...
+2   1.00 ms  10.66.4.44
+3   1.50 ms  138.197.249.14
+4   1.69 ms  219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)
+5   ...
+6   10.17 ms 121.240.1.46
+7   10.06 ms 74.125.242.130
+8   70.81 ms 142.250.63.169
+9   40.53 ms 209.85.242.109
+10  41.46 ms 172.253.68.253
+11  ... 19
+20  39.98 ms 74.125.24.129
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 06:53
+Completed NSE at 06:53, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 06:53
+Completed NSE at 06:53, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 06:53
+Completed NSE at 06:53, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 89.05 seconds
+           Raw packets sent: 132 (9.208KB) | Rcvd: 57 (3.254KB)
