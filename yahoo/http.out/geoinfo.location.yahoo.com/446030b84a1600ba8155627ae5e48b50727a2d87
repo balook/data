@@ -1,0 +1,26 @@
+https://geoinfo.location.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: geoinfo.location.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 315
+< Server: Jetty(9.3.z-SNAPSHOT)
+< Date: Tue, 13 Oct 2020 18:30:10 GMT
+< Strict-Transport-Security: max-age=2000; includeSubDomains
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Type: text/html;charset=iso-8859-1
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+<title>Error 403 </title>
+</head>
+<body>
+<h2>HTTP ERROR: 403</h2>
+<p>Problem accessing /. Reason:
+<pre>    Forbidden</pre></p>
+<hr /><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.3.z-SNAPSHOT</a><hr/>
+</body>
+</html>

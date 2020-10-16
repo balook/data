@@ -1,0 +1,14 @@
+id: favicon-d
+info:
+   name: favicon
+requests:
+   -
+      method: GET
+      path:
+         - '{{BaseURL}}/favicon.ico'
+      matchers:
+         -
+            type: status
+      status:
+         - 200
+

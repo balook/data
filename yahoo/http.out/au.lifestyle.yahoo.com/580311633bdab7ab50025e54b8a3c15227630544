@@ -1,0 +1,19 @@
+http://au.lifestyle.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: au.lifestyle.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=0, private
+< Content-Type: text/html
+< Content-Language: en
+< Set-Cookie: B=9d4b0qtfobpq3&b=3&s=uc; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< Location: https://au.lifestyle.yahoo.com/
+< Expires: -1
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+< Server: ATS
+< Content-Security-Policy: frame-ancestors 'self' https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=lifestyle&region=AU&lang=en-AU&device=&yrid=&partner=;
+< Content-Length: 8
+
+redirect

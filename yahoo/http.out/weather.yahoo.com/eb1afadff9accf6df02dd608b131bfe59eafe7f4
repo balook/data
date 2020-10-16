@@ -1,0 +1,36 @@
+https://weather.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: weather.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+< Set-Cookie: B=ap2l8sdfobpq2&b=3&s=bf; expires=Wed, 13-Oct-2021 17:43:30 GMT; path=/; domain=.yahoo.com
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Date: Tue, 13 Oct 2020 17:43:30 GMT
+< Server: ATS
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 317
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-store
+< Location: https://www.yahoo.com/news/weather/
+< Content-Language: en
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://www.yahoo.com/news/weather/".
+</B></FONT>
+<HR>
+</BODY>

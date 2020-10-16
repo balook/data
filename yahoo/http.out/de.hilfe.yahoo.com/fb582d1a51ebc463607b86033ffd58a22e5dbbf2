@@ -1,0 +1,17 @@
+http://de.hilfe.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: de.hilfe.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Content-Language: en
+< Set-Cookie: B=faiceqpfobpq3&b=3&s=k3; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Content-Length: 8
+< Location: https://de.hilfe.yahoo.com/
+< Content-Type: text/html
+
+redirect

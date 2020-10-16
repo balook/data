@@ -1,0 +1,3 @@
+https://businesschat.yahooapis.com/
+https://api.digitalhomeservices.yahoo.com/
+http://csp.yahoo.com/

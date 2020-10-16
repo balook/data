@@ -1,0 +1,16 @@
+http://beap.gemini.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: beap.gemini.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< Age: 0
+< Server: ATS
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+< Date: Tue, 13 Oct 2020 14:50:59 GMT
+< X-Frame-Options: SAMEORIGIN
+

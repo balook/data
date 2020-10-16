@@ -1,0 +1,24 @@
+https://wyql-rw.sports.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: wyql-rw.sports.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Expires: -1
+< Date: Tue, 13 Oct 2020 16:55:02 GMT
+< Set-Cookie: B=0f2fi7dfobmv6&b=3&s=0r; expires=Wed, 13-Oct-2021 16:55:02 GMT; path=/; domain=.yahoo.com
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Length: 19
+< X-Envoy-Decorator-Operation: fantasy-wallet-yql--mtls-production-bf1.wallet-k8s.svc.yahoo.local:8080/*
+< Age: 0
+< Referrer-Policy: no-referrer-when-downgrade
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/plain
+< Server: ATS
+< Cache-Control: max-age=0, private
+< Strict-Transport-Security: max-age=15552000
+
+RBAC: access denied

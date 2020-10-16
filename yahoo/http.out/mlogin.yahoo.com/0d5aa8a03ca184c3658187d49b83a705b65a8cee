@@ -1,0 +1,35 @@
+https://mlogin.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: mlogin.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Content-Type: text/html
+< Content-Language: en
+< Date: Tue, 13 Oct 2020 18:16:42 GMT
+< Strict-Transport-Security: max-age=15552000
+< Cache-Control: no-store
+< Server: ATS
+< Location: https://login.yahoo.com/m
+< Set-Cookie: A1=d=AQABBArvhV8CEK7_Wj6Ei984Zx4BjUR8HcUFEgEBAQFAh1-PXwAAAAAA_SMAAA&S=AQAAAr3fHex2ra2oSkDpZR4ZlNI; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=Lax; Secure; HttpOnly
+< Set-Cookie: A3=d=AQABBArvhV8CEK7_Wj6Ei984Zx4BjUR8HcUFEgEBAQFAh1-PXwAAAAAA_SMAAA&S=AQAAAr3fHex2ra2oSkDpZR4ZlNI; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+< Set-Cookie: A1S=d=AQABBArvhV8CEK7_Wj6Ei984Zx4BjUR8HcUFEgEBAQFAh1-PXwAAAAAA_SMAAA&S=AQAAAr3fHex2ra2oSkDpZR4ZlNI&j=WORLD; Domain=.yahoo.com; Path=/; SameSite=Lax; Secure
+< Set-Cookie: B=ca7bs8hfobroa&b=3&s=i0; Max-Age=31557600; Domain=.yahoo.com; Path=/
+< Set-Cookie: GUC=AQEBAQFfh0Bfj0IhIATq; Max-Age=31557600; Domain=.yahoo.com; Path=/; Secure
+< Content-Length: 307
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://login.yahoo.com/m".
+</B></FONT>
+<HR>
+</BODY>

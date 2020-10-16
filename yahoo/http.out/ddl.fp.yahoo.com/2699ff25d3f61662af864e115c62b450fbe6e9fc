@@ -1,0 +1,22 @@
+https://ddl.fp.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ddl.fp.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: B=btmv8mdfobrc8&b=3&s=21; expires=Wed, 13-Oct-2021 18:10:16 GMT; path=/; domain=.yahoo.com
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 9
+< Referrer-Policy: no-referrer-when-downgrade
+< Strict-Transport-Security: max-age=31536000
+< Server: ATS
+< Cache-Control: no-store
+< Content-Type: text/html
+< Content-Language: en
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Date: Tue, 13 Oct 2020 18:10:16 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+
+Not Found

@@ -1,0 +1,29 @@
+http://sg.careers.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: sg.careers.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Location: https://careers.yahoo.com/sg/
+< Content-Type: text/html
+< Content-Language: en
+< Content-Length: 311
+< Date: Tue, 13 Oct 2020 18:15:19 GMT
+< Server: ATS
+< Cache-Control: no-store
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://careers.yahoo.com/sg/".
+</B></FONT>
+<HR>
+</BODY>

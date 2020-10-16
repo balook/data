@@ -1,0 +1,32 @@
+http://vop02.cdn.vip.ir2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: vop02.cdn.vip.ir2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Date: Tue, 13 Oct 2020 16:59:51 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 207
+< Server: ATS
+< Cache-Control: no-store
+< Content-Type: text/html
+< Content-Language: en
+< Referrer-Policy: strict-origin-when-cross-origin
+
+<HTML>
+<HEAD>
+<TITLE>Error</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Error</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Could not process this request.
+</B></FONT>
+<HR>
+</BODY>

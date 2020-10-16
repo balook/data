@@ -1,0 +1,4 @@
+http://querybuilder.v1.production.omega.gq1.yahoo.com/service-worker.js
+
+
+/rotation 403

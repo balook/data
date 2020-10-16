@@ -1,0 +1,17 @@
+http://weather.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: weather.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Set-Cookie: B=8jccb9tfobpq2&b=3&s=ro; expires=Wed, 13-Oct-2021 17:43:30 GMT; path=/; domain=.yahoo.com
+< Date: Tue, 13 Oct 2020 17:43:30 GMT
+< Location: https://weather.yahoo.com/
+< Content-Type: text/html
+< Server: ATS
+< Cache-Control: no-store
+< Content-Language: en
+< Content-Length: 8
+
+redirect

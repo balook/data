@@ -1,0 +1,63 @@
+https://gomobile.mail.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: gomobile.mail.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Envoy-Upstream-Service-Time: 2
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 4627
+< Etag: W/"1213-SiGpazemvGB04hGYyp5irKc6bTA"
+< Date: Tue, 13 Oct 2020 17:43:35 GMT
+< Age: 2
+< Strict-Transport-Security: max-age=15552000
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Server: ATS
+< Referrer-Policy: no-referrer-when-downgrade
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="google-site-verification" content="K7T1cKNcaN3iYgPzSl1cqovstKaZijbO4HQhERADtpU" />
+    <meta name="description" content="Say hello to the latest Yahoo Mail upgrade—loaded with features to help you stay organized and save money, seamlessly. Your new inbox will deliver the best deals/coupons in one tap, notify you when they’re about to expire, and even automatically request a refund when prices drop.">
+    <link rel="shortcut icon" href="https://s.yimg.com/mi/yahoo/favicon.ico">
+    <link rel="canonical" href="https://gomobile.mail.yahoo.com">
+    <link rel="dns-prefetch" href="//s.yimg.com">
+    <link rel="dns-prefetch" href="//geo.yahoo.com">
+    <link rel="dns-prefetch" href="//geo.query.yahoo.com">
+    <link href="https://gomobile.mail.yahoo.com" hreflang="x-default" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=bn-IN" hreflang="bn-IN" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=de-DE" hreflang="de-DE" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=en-GB" hreflang="en-GB" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=en-US" hreflang="en-US" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=es-ES" hreflang="es-ES" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=fil-PH" hreflang="fil-PH" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=fr-CA" hreflang="fr-CA" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=fr-FR" hreflang="fr-FR" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=gu-IN" hreflang="gu-IN" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=hi-IN" hreflang="hi-IN" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=id-ID" hreflang="id-ID" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=kn-IN" hreflang="kn-IN" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=ml-IN" hreflang="ml-IN" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=mr-IN" hreflang="mr-IN" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=pt-BR" hreflang="pt-BR" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=ro-RO" hreflang="ro-RO" rel="alternate">
+    <link href="https://gomobile.mail.yahoo.com?lang=ta-IN" hreflang="ta-IN" rel="alternate">
+    <meta http-equiv="content-language" content="en-US">
+    <title>Yahoo Mail — Go further</title>
+    <link rel="stylesheet" href="/assets/bundle.css">
+    <script type="text/javascript" src="https://s.yimg.com/ss/rapid-3.41.3.js"></script>
+  </head>
+  <body class="gomobile">
+    <div id='app'></div>
+    <script type="text/javascript">window.BCG = { global: {"ctx":{"partner":"","shouldCheckUALanguage":true,"supportedLanguages":["en-US","en-PH","bn-IN","en-GB","en-MY","ms","ms-MY","en-CA","en-NZ","en-AU","en-SG","en-IN","fil-PH","fr","fr-CA","fr-FR","de-DE","gu-IN","hi-IN","id","id-ID","kn-IN","ml-IN","mr-IN","pt-BR","ro-RO","es-ES","ta-IN","de-AT","fr-BE","es-US","es-MX","es-AR","es-CO","es-CL","es-PE","es-VE","zh-Hant-TW","zh-Hant-HK","ja","ja-JP","it-IT","zh","zh-TW","zh-CN","zh-SG","zh-HK"],"supportedMailSixLanguages":["en-US","en-GB","en-AU","en-CA","en-IN","en-PH","fr-FR","pt-BR","id-ID","de-DE","zh-Hant-TW","zh-Hant-HK","en-MY","en-SG","ms-MY"],"locale":"en-US","localeStyles":{"us":["en-US"],"intl":["fr-FR","pt-BR","zh-Hant-TW","id-ID","de-DE","zh-Hant-HK"],"globalEn":["en-GB","en-SG","en-MY","en-PH","en-IN","en-CA","en-AU"]},"languageGroup":{"fr":"fr-FR","fil":"en-PH","de":"de-DE","id":"id-ID","zh":"zh-Hant-TW","zh-TW":"zh-Hant-TW","zh-CN":"zh-Hant-TW","zh-SG":"zh-Hant-TW","zh-HK":"zh-Hant-HK","ms":"en-MY","ms-MY":"en-MY"},"partnerclickthru":{"qr":"","ncid":"","mWebSupportedLanguages":{"en-GB":"UK","zh-cn":"TW","zh-TW":"TW","zh-Hant-TW":"TW","zh-HK":"HK","zh-Hant-HK":"HK","en-IN":"IN","en-AU":"AU","id":"ID","id-ID":"ID","fil":"PH","en-PH":"PH","ms-MY":"MY","pt-BR":"BR","fr":"FR","fr-FR":"FR","de":"DE","de-DE":"DE","en-MY":"MY"}},"isInternal":false,"isLoggedIn":false,"ccpa":{"label":"","url":"","showDAAPrivacyRightsIcon":false,"isDNT":false,"xjus":"WORLD"}},"isMobile":false}};</script>
+    <script type="text/javascript" src="/assets/commons.js"></script>
+    <script type="text/javascript" src="/assets/gomobile/bundle.js"></script>
+  </body>
+</html>

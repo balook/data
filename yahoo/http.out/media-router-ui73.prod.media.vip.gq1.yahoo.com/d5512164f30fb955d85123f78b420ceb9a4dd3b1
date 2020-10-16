@@ -1,0 +1,17 @@
+http://media-router-ui73.prod.media.vip.gq1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: media-router-ui73.prod.media.vip.gq1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Set-Cookie: B=8478j69fobd9u&b=3&s=jc; expires=Wed, 13-Oct-2021 14:10:06 GMT; path=/; domain=.yahoo.com
+< Location: https://media-router-ui73.prod.media.vip.gq1.yahoo.com/
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 14:10:06 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Content-Language: en
+
+redirect

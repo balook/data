@@ -1,0 +1,20 @@
+http://ca.news.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ca.news.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Language: en
+< Content-Security-Policy: frame-ancestors 'self' https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=news&region=CA&lang=en-CA&device=&yrid=&partner=;
+< Set-Cookie: B=9554gt5fobpon&b=3&s=rm; expires=Wed, 13-Oct-2021 17:42:47 GMT; path=/; domain=.yahoo.com
+< Date: Tue, 13 Oct 2020 17:42:47 GMT
+< Server: ATS
+< Content-Type: text/html
+< Expires: -1
+< X-Xss-Protection: 1; report="https://csp.yahoo.com/beacon/csp?src=fp-hpkp-ca-news"
+< Content-Length: 8
+< Cache-Control: max-age=0, private
+< Location: https://ca.news.yahoo.com/
+
+redirect

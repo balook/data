@@ -1,0 +1,16 @@
+https://private.comet.vip.gq1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: private.comet.vip.gq1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Age: 0
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 13 Oct 2020 18:29:34 GMT
+< Strict-Transport-Security: max-age=31536000
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Frame-Options: DENY
+< Referrer-Policy: strict-origin-when-cross-origin
+

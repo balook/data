@@ -1,0 +1,17 @@
+http://de.stars.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: de.stars.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Location: https://de.stars.yahoo.com/
+< Set-Cookie: B=93nfivdfobpq2&b=3&s=8q; expires=Wed, 13-Oct-2021 17:43:30 GMT; path=/; domain=.yahoo.com
+< Server: ATS
+< Cache-Control: no-store
+< Content-Type: text/html
+< Content-Language: en
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 17:43:30 GMT
+
+redirect

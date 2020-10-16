@@ -1,0 +1,29 @@
+http://ups.analytics.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ups.analytics.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Server: ATS/7.1.2.113
+< Cache-Control: no-store
+< Location: https://ups.analytics.yahoo.com/
+< Content-Type: text/html
+< Content-Language: en
+< Content-Length: 314
+< Date: Tue, 13 Oct 2020 14:20:05 GMT
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://ups.analytics.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>

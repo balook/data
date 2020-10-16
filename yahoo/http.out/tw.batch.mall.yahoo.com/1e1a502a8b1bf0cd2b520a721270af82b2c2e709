@@ -1,0 +1,33 @@
+http://tw.batch.mall.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: tw.batch.mall.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Server: ATS
+< Content-Language: en
+< X-Frame-Options: DENY
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Length: 314
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 13 Oct 2020 14:58:07 GMT
+< Cache-Control: no-store
+< Location: https://tw.batch.mall.yahoo.com/
+< Content-Type: text/html
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://tw.batch.mall.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>

@@ -1,0 +1,33 @@
+https://vpn2-1-gci.corp.ne1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: vpn2-1-gci.corp.ne1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Pragma: no-cache
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Set-Cookie: webvpn=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpn_as=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpnc=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpn_portal=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpnSharePoint=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: samlPreauthSessionHash=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: acSamlv2Token=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: acSamlv2Error=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpnlogin=1; path=/; secure
+< Cache-Control: no-store
+< Date: Tue, 13 Oct 2020 14:18:52 GMT
+< Connection: Keep-Alive
+
+
+    <html>
+        <script>
+            document.cookie = "tg=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure";
+            document.cookie = "sdesktop=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure";
+            document.location.replace("/+CSCOE+/logon.html");
+        </script>
+    </html>
+    

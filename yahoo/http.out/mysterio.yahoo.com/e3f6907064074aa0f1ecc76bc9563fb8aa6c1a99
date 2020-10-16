@@ -1,0 +1,17 @@
+http://mysterio.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: mysterio.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+< Cache-Control: no-store
+< Content-Type: text/html
+< Set-Cookie: B=2qa8tetfobpq3&b=3&s=uf; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< Location: https://mysterio.yahoo.com/
+< Server: ATS
+< Content-Language: en
+< Content-Length: 11
+
+Invalid Api

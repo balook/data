@@ -1,0 +1,24 @@
+http://my.featured.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: my.featured.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Rid: 19cd3b6216d40f084dcc0111b96f6ceb
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: deny
+< Strict-Transport-Security: max-age=15552001
+< X-Ua-Device: desktop
+< Vary: X-UA-Device, Accept
+< Age: 0
+< Server: ATS
+< Date: Tue, 13 Oct 2020 17:43:34 GMT
+< X-Ua-Compatible: IE=Edge,chrome=1
+< P3p: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+< Location: https://my.featured.yahoo.com/#_=_
+

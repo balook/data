@@ -1,0 +1,17 @@
+http://att.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: att.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Cache-Control: no-store
+< Location: https://att.yahoo.com/
+< Content-Type: text/html
+< Set-Cookie: B=6g6acipfobpq3&b=3&s=p2; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+< Server: ATS
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+< Content-Language: en
+
+redirect

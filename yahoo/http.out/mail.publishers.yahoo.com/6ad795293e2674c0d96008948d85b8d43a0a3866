@@ -1,0 +1,27 @@
+http://mail.publishers.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: mail.publishers.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: __cfduid=d2ec6982542780b5dcf3a1346bfaa63901602602652; expires=Thu, 12-Nov-20 15:24:12 GMT; path=/; domain=.mail.publishers.yahoo.com; HttpOnly; SameSite=Lax
+< Set-Cookie: BIGipServerab_mailtracking_80=!O1aoHeOOh0kzuZJybf/nLIVwOTHiDjoUyeseOGL2e+GIfAFdphVxp6gfRWjV3b3DuOFk50iC94DnEVI=; path=/; Httponly
+< Set-Cookie: __cf_bm=e22e149eb294e8a9976a747cd79499ee706c085e-1602602652-1800-AY17y9WpWd9DsmRjt6wn6094DJs6v+rfaebXcjlGPmhkBJrTuxlijsQL0wJhJl9jQCygeI7cgvGuhnVoGYl4IhE=; path=/; expires=Tue, 13-Oct-20 15:54:12 GMT; domain=.mail.publishers.yahoo.com; HttpOnly; SameSite=None
+< Cache-Control: private, no-cache, no-store, max-age=0
+< Cf-Request-Id: 05c428e9e00000894fab911200000001
+< Server: cloudflare
+< Cf-Ray: 5e1a10efc8ed894f-MAA
+< Date: Tue, 13 Oct 2020 15:24:12 GMT
+< X-Content-Type-Options: nosniff
+< Cf-Cache-Status: DYNAMIC
+< Content-Type: text/html
+< Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

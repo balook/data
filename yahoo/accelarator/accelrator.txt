@@ -1,0 +1,4 @@
+https://beta.api.login.yahoo.com/
+https://ats.api.login.lgg1.b.yahoo.com/
+https://olympus-pub-api-1.yms.vip.gq1.yahoo.com/
+https://canary.api.login.yahoo.com

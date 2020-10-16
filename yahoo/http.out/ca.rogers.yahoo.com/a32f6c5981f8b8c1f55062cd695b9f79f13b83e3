@@ -1,0 +1,19 @@
+http://ca.rogers.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ca.rogers.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-store, no-cache
+< Content-Type: text/html
+< Set-Cookie: B=8t61m55fobrc8&b=3&s=k1; expires=Wed, 13-Oct-2021 18:10:16 GMT; path=/; domain=.yahoo.com
+< Location: https://ca.rogers.yahoo.com/
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 18:10:16 GMT
+< Connection: keep-alive
+< Server: ATS
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+
+redirect

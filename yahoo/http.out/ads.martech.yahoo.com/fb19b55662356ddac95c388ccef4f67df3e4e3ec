@@ -1,0 +1,22 @@
+https://ads.martech.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ads.martech.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Strict-Transport-Security: max-age=31536000
+< Age: 1
+< Expires: -1
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: max-age=0, private
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: no-referrer-when-downgrade
+< Set-Cookie: B=8414drlfobpq2&b=3&s=s2; Expires=Wed, 13 Oct 2021 23:43:31 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/
+< Set-Cookie: B=8414drlfobpq2&b=3&s=s2; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< Content-Length: 0
+< Server: ATS
+< X-Xss-Protection: 1; mode=block
+

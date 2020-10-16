@@ -1,0 +1,29 @@
+http://br.messenger.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: br.messenger.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Date: Tue, 13 Oct 2020 15:41:11 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Location: https://messenger.yahoo.com/
+< Content-Type: text/html
+< Content-Language: en
+< Content-Length: 310
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://messenger.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>

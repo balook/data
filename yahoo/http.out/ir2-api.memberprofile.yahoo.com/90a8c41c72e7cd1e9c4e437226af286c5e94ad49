@@ -1,0 +1,14 @@
+https://ir2-api.memberprofile.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ir2-api.memberprofile.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Date: Tue, 13 Oct 2020 18:05:19 GMT
+< Y-Rid: 15a4cao9qqaik28egerc2eq9b0
+< Server: Canonical Profile
+< Content-Type: application/json
+< Content-Length: 96
+
+{"errors":[{"code":"INVALID_CLIENT_AUTH","title":"Client authorization/authentication error."}]}

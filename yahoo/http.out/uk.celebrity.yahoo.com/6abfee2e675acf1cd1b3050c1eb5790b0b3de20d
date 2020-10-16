@@ -1,0 +1,17 @@
+http://uk.celebrity.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: uk.celebrity.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Content-Language: en
+< Set-Cookie: B=1e85395fobpq3&b=3&s=vk; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+< Server: ATS
+< Cache-Control: no-store
+< Location: https://uk.celebrity.yahoo.com/
+< Content-Type: text/html
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+
+redirect

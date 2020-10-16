@@ -1,0 +1,24 @@
+https://alerts.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: alerts.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-store, no-cache
+< Set-Cookie: B=0hrcidlfobran&b=3&s=2h; expires=Wed, 13-Oct-2021 18:09:27 GMT; path=/; domain=.yahoo.com
+< Server: ATS
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 8
+< Connection: keep-alive
+< Strict-Transport-Security: max-age=31536000
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Frame-Options: SAMEORIGIN
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Location: https://www.yahoo.com/
+< Date: Tue, 13 Oct 2020 18:09:27 GMT
+< Content-Type: text/html
+< Content-Language: en
+
+redirect

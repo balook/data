@@ -1,0 +1,15 @@
+https://ccapi.commercecentral.luminate.com/
+https://api-trunk.profile.yahoo.com/
+https://stage.api.login.yahoo.com/			  => jetty
+http://api-adfeedback.beap.adx.yahoo.com/
+https://jsapi.login.yahoo.com/
+https://gamma.api.login.yahoo.com/
+https://api.login.yahoo.com/
+https://api.credstore.yahoo.com/
+http://commsdata.api.yahoo.com/
+https://commsdata.api.yahoo.com/
+https://api.view.yahoo.com/
+https://api.device.yahoo.com/
+https://stg-api-v3.admanagerplus.yahoo.com/yamplus_api/
+https://api.digitalhomeservices.yahoo.com/
+https://beta.api.login.yahoo.com/

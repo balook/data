@@ -1,0 +1,19 @@
+http://ddl.fp.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ddl.fp.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 13 Oct 2020 18:10:16 GMT
+< Connection: keep-alive
+< Server: ATS
+< Location: https://ddl.fp.yahoo.com/
+< Content-Length: 8
+< Cache-Control: no-store, no-cache
+< Content-Type: text/html
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: B=c41l2cpfobrc8&b=3&s=9q; expires=Wed, 13-Oct-2021 18:10:16 GMT; path=/; domain=.yahoo.com
+
+redirect

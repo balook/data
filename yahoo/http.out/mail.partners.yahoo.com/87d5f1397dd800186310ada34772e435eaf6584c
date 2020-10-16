@@ -1,0 +1,26 @@
+http://mail.partners.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: mail.partners.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: __cfduid=dac9811e15d8e4d71e17ca0ecb3b9d9c91602602653; expires=Thu, 12-Nov-20 15:24:13 GMT; path=/; domain=.mail.partners.yahoo.com; HttpOnly; SameSite=Lax
+< Set-Cookie: __cf_bm=4909d86b6c07265f1496b1eb253dff4caa177474-1602602653-1800-AZyQVSoP3mYxNNlioUuuD72y7S7jT4P8qQx32hCWiH84LixCp/MUxoKezmwty8yKRXrjyz0U3ZadFxcHPXhFaJU=; path=/; expires=Tue, 13-Oct-20 15:54:13 GMT; domain=.mail.partners.yahoo.com; HttpOnly; SameSite=None
+< X-Content-Type-Options: nosniff
+< Cf-Cache-Status: DYNAMIC
+< Cf-Ray: 5e1a10f5feb7dca9-MAA
+< Content-Type: text/html
+< Cache-Control: private, no-cache, no-store, max-age=0
+< Cf-Request-Id: 05c428edb60000dca9a5a7c200000001
+< Server: cloudflare
+< Date: Tue, 13 Oct 2020 15:24:13 GMT
+< Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

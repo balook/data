@@ -1,0 +1,24 @@
+https://partnerinsights.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: partnerinsights.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=UTF-8
+< Server: ATS
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 15:41:28 GMT
+< Cache-Control: private
+< Age: 1
+< Strict-Transport-Security: max-age=15552000
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: B=0qaslrhfobil8&b=3&s=v8; expires=Wed, 13-Oct-2021 15:41:28 GMT; path=/; domain=.yahoo.com; secure
+< Location: https://id.b2b.oath.com/identity/oauth2/authorize?response_type=code&realm=pi&client_id=f3beff53-6c41-4ac0-8804-db87e697247c&scope=openid+profile+oath%3Ausername&redirect_uri=https://partnerinsights.yahoo.com/b2b_redirect&state=pmcaN7NiFUDsO
+< Referrer-Policy: no-referrer-when-downgrade
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< Expires: Tue, 13 Oct 2020 15:41:29 GMT
+< Content-Security-Policy: default-src 'self'; 					img-src 'self' data: backyard.yahoo.com apac.analytics.yahoo.com; 					script-src 'self' 'unsafe-inline' apac.analytics.yahoo.com; 					style-src 'self' 'unsafe-inline' *.partnerinsights.yahoo.com; 					font-src 'self' data:; 					block-all-mixed-content; 					report-uri /index.php?a=pmc&p=cspm
+< Content-Length: 0
+

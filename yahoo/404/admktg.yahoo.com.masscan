@@ -1,0 +1,16 @@
+# Masscan 1.0.6 scan initiated Tue Oct 13 12:42:55 2020
+# Ports scanned: TCP(65536;0-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Timestamp: 1602592975	Host: 104.17.74.206 ()	Ports: 2096/open/tcp//unknown//
+Timestamp: 1602592975	Host: 104.17.74.206 ()	Ports: 2052/open/tcp//unknown//
+Timestamp: 1602592976	Host: 104.17.74.206 ()	Ports: 2086/open/tcp//gnunet//
+Timestamp: 1602592977	Host: 104.17.74.206 ()	Ports: 8443/open/tcp//unknown//
+Timestamp: 1602592977	Host: 104.17.74.206 ()	Ports: 2083/open/tcp//unknown//
+Timestamp: 1602592978	Host: 104.17.74.206 ()	Ports: 80/open/tcp//http//
+Timestamp: 1602592978	Host: 104.17.74.206 ()	Ports: 8880/open/tcp//unknown//
+Timestamp: 1602592979	Host: 104.17.74.206 ()	Ports: 2087/open/tcp//unknown//
+Timestamp: 1602592979	Host: 104.17.74.206 ()	Ports: 2095/open/tcp//unknown//
+Timestamp: 1602592980	Host: 104.17.74.206 ()	Ports: 2053/open/tcp//unknown//
+Timestamp: 1602592980	Host: 104.17.74.206 ()	Ports: 2082/open/tcp//unknown//
+Timestamp: 1602592981	Host: 104.17.74.206 ()	Ports: 443/open/tcp//https//
+Timestamp: 1602592981	Host: 104.17.74.206 ()	Ports: 8080/open/tcp//http-alt//
+# Masscan done at Tue Oct 13 12:43:12 2020

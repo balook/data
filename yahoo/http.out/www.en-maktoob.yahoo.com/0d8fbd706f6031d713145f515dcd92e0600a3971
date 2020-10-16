@@ -1,0 +1,21 @@
+http://www.en-maktoob.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: www.en-maktoob.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 13 Oct 2020 18:13:45 GMT
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< Age: 0
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+< Referrer-Policy: strict-origin-when-cross-origin
+< Cache-Control: max-age=3600, private
+< Location: https://en-maktoob.yahoo.com/
+< Server: ATS
+< X-Frame-Options: DENY
+< Set-Cookie: B=16vu12hfobrip&b=3&s=ts; expires=Wed, 13-Oct-2021 18:13:45 GMT; path=/; domain=.yahoo.com; secure
+< Content-Type: text/html; charset=UTF-8
+

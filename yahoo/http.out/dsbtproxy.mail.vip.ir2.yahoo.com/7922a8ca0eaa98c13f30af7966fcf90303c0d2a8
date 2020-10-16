@@ -1,0 +1,19 @@
+https://dsbtproxy.mail.vip.ir2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: dsbtproxy.mail.vip.ir2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Expect-Ct: max-age=31536000, report-uri=http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only
+< Content-Security-Policy: sandbox; default-src 'self'; script-src 'none'; object-src 'none'; report-uri https://csp.yahoo.com/beacon/csp?src=generic
+< Date: Tue, 13 Oct 2020 18:34:04 +0000
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Content-Type: application/json
+< Server: Darkseid
+< Content-Length: 88
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Frame-Options: DENY
+
+{"code":401,"message":"Unauthorized","requestId":"16da3097-ac9b-24fd-3072-ac3862013b02"}

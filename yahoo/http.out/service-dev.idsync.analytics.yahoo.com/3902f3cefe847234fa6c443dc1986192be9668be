@@ -1,0 +1,21 @@
+https://service-dev.idsync.analytics.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: service-dev.idsync.analytics.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Temporarily Unavailable
+< Set-Cookie: A3=d=AQABBP6_hV8CEP2tMvcU7jNmuMJdHELZkrMFEgEBAQERh1-PXwAAAAAA_SMAAA&S=AQAAAnpQvlUjTzimEKRsFN8hMOs; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+< Set-Cookie: B=b74mp89fobfvu&b=3&s=ss; Max-Age=31557600; Domain=.yahoo.com; Path=/
+< Server: ATS/7.1.2.113
+< Date: Tue, 13 Oct 2020 14:55:58 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Age: 0
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+</body>
+</html>

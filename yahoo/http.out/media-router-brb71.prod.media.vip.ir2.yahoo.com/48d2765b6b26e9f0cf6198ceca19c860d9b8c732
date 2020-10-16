@@ -1,0 +1,17 @@
+http://media-router-brb71.prod.media.vip.ir2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: media-router-brb71.prod.media.vip.ir2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ATS
+< Cache-Control: no-store, no-cache, private, max-age=0
+< Content-Type: text/html
+< Content-Language: en
+< Date: Tue, 13 Oct 2020 14:34:12 GMT
+< Location: https://media-router-brb71.prod.media.vip.ir2.yahoo.com/
+< Content-Length: 8
+< Expires: -1
+
+redirect

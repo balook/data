@@ -1,0 +1,19 @@
+http://hsrd.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: hsrd.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ATS
+< Content-Language: en
+< Set-Cookie: B=a7ietqdfobraq&b=3&s=s9; expires=Wed, 13-Oct-2021 18:09:30 GMT; path=/; domain=.yahoo.com
+< Location: https://hsrd.yahoo.com/
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 18:09:30 GMT
+< Connection: keep-alive
+< Cache-Control: no-store, no-cache
+< Content-Type: text/html
+< X-Frame-Options: SAMEORIGIN
+
+redirect

@@ -1,0 +1,33 @@
+https://spdc.pbp.vip.gq1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: spdc.pbp.vip.gq1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Age: 0
+< Set-Cookie: A3=d=AQABBBLRhV8CELC9yQgt9_kzvPCP9tP1VFkFEgEBAQEih1-PXwAAAAAA_SMAAA&S=AQAAAoE4bvRMEPOjTHf0jJopuxE; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+< Set-Cookie: B=5il7lqdfobk8i&b=3&s=5e; Max-Age=31557600; Domain=.yahoo.com; Path=/
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Length: 315
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 13 Oct 2020 16:08:50 GMT
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html;charset=iso-8859-1
+< Server: ATS
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /. Reason:
+<pre>    Not Found</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+https://apple-smarttv.manhattan.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: apple-smarttv.manhattan.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 13 Oct 2020 18:30:15 GMT
+< Age: 1
+< Strict-Transport-Security: max-age=15552000
+< Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://csp.yahoo.com/beacon/csp?src=fendr_apple-smarttv.manhattan.yahoo.com
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 159
+< Set-Cookie: B=647go9lfobshn&b=3&s=ul; expires=Tue, 13-Oct-2021 18:30:15 GMT; path=/; domain=.yahoo.com
+< Server: ATS
+< X-Content-Type-Options: nosniff
+< X-Powered-By: Express
+< Vary: Accept, Accept-Encoding
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: no-referrer-when-downgrade
+< Location: https://s.yimg.com/rb/services/smarttv-screen/master/2d0b997e7d9530b722e927828a3913b233c32381/index.html?server=prod&env=production&ent=.
+
+Found. Redirecting to https://s.yimg.com/rb/services/smarttv-screen/master/2d0b997e7d9530b722e927828a3913b233c32381/index.html?server=prod&env=production&ent=.

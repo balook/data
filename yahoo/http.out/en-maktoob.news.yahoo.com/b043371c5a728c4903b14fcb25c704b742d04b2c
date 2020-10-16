@@ -1,0 +1,36 @@
+https://en-maktoob.news.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: en-maktoob.news.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: en
+< Referrer-Policy: no-referrer-when-downgrade
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Content-Type-Options: nosniff
+< Content-Length: 308
+< Strict-Transport-Security: max-age=31536000
+< Location: https://uk.news.yahoo.com/
+< Cache-Control: no-store
+< Content-Type: text/html
+< Server: ATS
+< Set-Cookie: B=5ukf1dtfobpq1&b=3&s=ek; expires=Wed, 13-Oct-2021 17:43:29 GMT; path=/; domain=.yahoo.com
+< Date: Tue, 13 Oct 2020 17:43:29 GMT
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://uk.news.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>

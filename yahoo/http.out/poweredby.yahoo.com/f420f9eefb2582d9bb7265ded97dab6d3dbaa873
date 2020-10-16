@@ -1,0 +1,17 @@
+http://poweredby.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: poweredby.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Referrer-Policy: no-referrer-when-downgrade
+< Age: 2
+< Content-Type: application/xml
+< Date: Tue, 13 Oct 2020 18:16:21 GMT
+< Server: ATS
+< X-Amz-Request-Id: 5E602AFE4F092974
+< X-Amz-Id-2: hQ14UkKxdIEi4C3T281hya5K6YZSIB8akyyK8LaopjAPxPcnAlKxFF02gBs0NDf/a7Kr/Zx8Tjc=
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>5E602AFE4F092974</RequestId><HostId>hQ14UkKxdIEi4C3T281hya5K6YZSIB8akyyK8LaopjAPxPcnAlKxFF02gBs0NDf/a7Kr/Zx8Tjc=</HostId></Error>

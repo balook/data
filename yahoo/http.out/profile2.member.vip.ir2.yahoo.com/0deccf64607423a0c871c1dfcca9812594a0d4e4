@@ -1,0 +1,14 @@
+https://profile2.member.vip.ir2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: profile2.member.vip.ir2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Length: 96
+< Date: Tue, 13 Oct 2020 18:04:29 GMT
+< Y-Rid: 572mm0kd50sudvgu43bm8gimli
+< Server: Canonical Profile
+< Content-Type: application/json
+
+{"errors":[{"code":"INVALID_CLIENT_AUTH","title":"Client authorization/authentication error."}]}

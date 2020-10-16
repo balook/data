@@ -1,0 +1,17 @@
+http://en-maktoob.news.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: en-maktoob.news.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Location: https://en-maktoob.news.yahoo.com/
+< Content-Type: text/html
+< Content-Language: en
+< Date: Tue, 13 Oct 2020 17:43:29 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Set-Cookie: B=3or4tlhfobpq1&b=3&s=0i; expires=Wed, 13-Oct-2021 17:43:29 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+
+redirect

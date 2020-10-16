@@ -1,0 +1,17 @@
+http://de.mobile.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: de.mobile.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Set-Cookie: B=7al9bq9fobppv&b=3&s=p9; expires=Wed, 13-Oct-2021 17:43:27 GMT; path=/; domain=.yahoo.com
+< Date: Tue, 13 Oct 2020 17:43:27 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Content-Language: en
+< Location: https://de.mobile.yahoo.com/
+< Content-Length: 8
+
+redirect

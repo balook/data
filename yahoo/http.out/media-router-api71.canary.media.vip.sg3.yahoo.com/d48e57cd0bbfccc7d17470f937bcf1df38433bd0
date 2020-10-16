@@ -1,0 +1,16 @@
+http://media-router-api71.canary.media.vip.sg3.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: media-router-api71.canary.media.vip.sg3.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 14:56:23 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Content-Type: text/html
+< Content-Language: en
+< Location: https://media-router-api71.canary.media.vip.sg3.yahoo.com/
+
+redirect

@@ -1,0 +1,32 @@
+http://sjclopo04.cdn.sjc.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: sjclopo04.cdn.sjc.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Length: 207
+< Date: Tue, 13 Oct 2020 15:51:37 GMT
+< Content-Type: text/html
+< Cache-Control: no-store
+< Content-Language: en
+< X-Frame-Options: DENY
+< Server: ATS
+
+<HTML>
+<HEAD>
+<TITLE>Error</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Error</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Could not process this request.
+</B></FONT>
+<HR>
+</BODY>

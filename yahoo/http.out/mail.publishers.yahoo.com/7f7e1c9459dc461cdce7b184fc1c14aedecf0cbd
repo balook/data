@@ -1,0 +1,27 @@
+https://mail.publishers.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: mail.publishers.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Tue, 13 Oct 2020 15:24:12 GMT
+< Cf-Cache-Status: DYNAMIC
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Content-Type: text/html
+< Server: cloudflare
+< X-Content-Type-Options: nosniff
+< Cf-Ray: 5e1a10f00e22dc91-MAA
+< Cf-Request-Id: 05c428ea000000dc91c0198200000001
+< Set-Cookie: __cfduid=d66733711c9775ba942eef95636e57f591602602652; expires=Thu, 12-Nov-20 15:24:12 GMT; path=/; domain=.mail.publishers.yahoo.com; HttpOnly; SameSite=Lax
+< Set-Cookie: BIGipServerab_mailtracking_80=!qZorh6senmmqjPtybf/nLIVwOTHiDliha6nCbQWiZSajGcy29OEd+0NnehZLCfwm4UrNU81iVBwpLOc=; path=/; Httponly; Secure
+< Cache-Control: private, no-cache, no-store, max-age=0
+< Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

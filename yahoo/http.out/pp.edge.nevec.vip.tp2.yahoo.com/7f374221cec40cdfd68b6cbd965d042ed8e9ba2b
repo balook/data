@@ -1,0 +1,34 @@
+https://pp.edge.nevec.vip.tp2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: pp.edge.nevec.vip.tp2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found on Accelerator
+< Date: Tue, 13 Oct 2020 16:16:35 GMT
+< Server: ATS
+< Content-Language: en
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Cache-Control: no-store
+< Content-Type: text/html
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 297
+
+<HTML>
+<HEAD>
+<TITLE>Not Found on Accelerator</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Not Found on Accelerator</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Your request on the specified host was not found.
+Check the location and try again.
+</B></FONT>
+<HR>
+</BODY>

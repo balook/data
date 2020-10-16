@@ -1,0 +1,107 @@
+http://qaxms1.l7.search.vip.bf2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: qaxms1.l7.search.vip.bf2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found on Accelerator
+< Date: Tue, 13 Oct 2020 14:45:52 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Content-Length: 3566
+< Content-Type: text/html
+< Content-Language: en
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://csp.search.yahoo.com/xssreport
+< Referrer-Policy: no-referrer-when-downgrade
+
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>404</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <style>
+html {
+    height: 100%;
+}
+body {
+    background: #fafafc url(https://s.yimg.com/nn/img/sad-panda-201402200631.png) 50% 50%;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    font: 300 18px "helvetica neue", helvetica, verdana, tahoma, arial, sans-serif;
+}
+table {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+}
+h1 {
+    font-size: 42px;
+    font-weight: 400;
+    color: #400090;
+}
+p {
+    color: #1A1A1A;
+}
+#message-1 {
+    font-weight: bold;
+    margin: 0;
+}
+#message-2 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    max-width: 17em;
+    _width: 17em;
+}
+    </style>
+<script>
+  document.write('<img src="//geo.yahoo.com/b?s=1197757129&t='+new Date().getTime()+'&err_url='+encodeURIComponent(document.URL)+'&err=404&test='+encodeURIComponent('-')+'" width="0px" height="0px"/>');
+</script>
+</head>
+<body>
+<!-- status code : 404 -->
+<!-- Not Found on Accelerator -->
+<!-- host machine: qaxms1.l7.search.bf2.yahoo.com -->
+<table>
+<tbody><tr>
+    <td>
+    <script type="text/javascript">
+    var huffPostRegEx = /(search.(huffingtonpost.(com|co.uk|ca|in|com.au|fr|es|it|jp|kr|gr)|huffpostbrasil.com)|search.quebec.huffingtonpost.ca|search.huffpost.com)$/;
+    if (window.location.hostname.indexOf('search.aol.com') !== -1 ||
+        window.location.hostname.indexOf('search.aol.co.uk') !== -1 ||
+        window.location.hostname.indexOf('search.aol.ca') !== -1 ||
+        window.location.hostname.indexOf('suche.aol.de') !== -1 ||
+        window.location.hostname.indexOf('recherche.aol.fr') !== -1) {
+        var body = document.getElementsByTagName('body')[0];
+        body.style.backgroundImage = "url('')";
+        document.write('<img src="https://s.yimg.com/pv/static/img/yahoo-logo-134_x_53_1x-201710121915.png" alt="AOL">');
+    } else if (huffPostRegEx.test(window.location.hostname)) {
+        document.write('<img src="https://s.yimg.com/pv/static/img/HuffPostHeroWhite-201809181846.png" height=53 alt="huffPost">');
+    } else if (window.location.hostname.indexOf('search.engadget.com') !== -1 ) {
+        document.write('<img src="https://s.yimg.com/pv/static/img/engadget_logo.png" height=53 alt="Engadget">');
+    } else if (window.location.hostname.indexOf('search.techcrunch.com') !== -1 ) {
+        document.write('<img src="https://s.yimg.com/pv/static/img/techcrunch_logo.png" height=53 alt="TechCrunch">');
+    } else if (window.location.hostname.indexOf('search.cashay.com') !== -1 ) {
+        document.write('<img src="https://s.yimg.com/pv/static/img/cashay_Logo_Black.png" alt="Cashay">');
+    } else if (window.location.hostname.indexOf('search.intheknow.com') !== -1 ) {
+        document.write('<img src="https://s.yimg.com/pv/static/img/itk-logo-202010021551.png" alt="In The Know">');
+    }else{
+        document.write('<img src="https://s.yimg.com/pv/static/img/yahoo-search-logo-224x60.png" alt="Yahoo Logo">');
+    }    
+    </script>
+    <h1 style="margin-top:20px;">Will be right back...</h1>
+    <p id="message-1">Thank you for your patience.</p>
+    <p id="message-2">Our engineers are working quickly to resolve the issue.</p>
+    </td>
+</tr>
+</tbody></table>
+
+
+</body></html>

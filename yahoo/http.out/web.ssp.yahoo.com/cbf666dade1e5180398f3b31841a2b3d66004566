@@ -1,0 +1,27 @@
+https://web.ssp.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: web.ssp.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/html;charset=iso-8859-1
+< Content-Length: 316
+< Server: ATS/7.1.2.113
+< Age: 0
+< Date: Tue, 13 Oct 2020 18:04:04 GMT
+< Cache-Control: must-revalidate,no-cache,no-store
+< Set-Cookie: A3=d=AQABBBTshV8CEIFPYa39JxEJyupfE_vt7n4FEgEBAQE9h1-PXwAAAAAA_SMAAA&S=AQAAAlj71gfUPaud7GQ_4sTEAdU; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+< Set-Cookie: B=7trndvdfobr0k&b=3&s=fk; Max-Age=31557600; Domain=.yahoo.com; Path=/
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /. Reason:
+<pre>    Not Found</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.7.v20170914</a><hr/>
+
+</body>
+</html>

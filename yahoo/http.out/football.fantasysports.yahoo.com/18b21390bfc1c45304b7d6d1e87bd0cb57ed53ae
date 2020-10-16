@@ -1,0 +1,19 @@
+http://football.fantasysports.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: football.fantasysports.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ATS
+< Cache-Control: no-store
+< Content-Length: 8
+< Location: https://football.fantasysports.yahoo.com/
+< Referrer-Policy: strict-origin-when-cross-origin
+< Age: 0
+< Date: Tue, 13 Oct 2020 17:44:06 GMT
+< Content-Type: text/html
+< Content-Language: en
+< Set-Cookie: B=3p6t1ipfobpr6&b=3&s=kj; expires=Wed, 13-Oct-2021 17:44:06 GMT; path=/; domain=.yahoo.com
+
+redirect

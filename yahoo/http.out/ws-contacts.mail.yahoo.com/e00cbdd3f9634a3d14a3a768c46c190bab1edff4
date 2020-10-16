@@ -1,0 +1,20 @@
+https://ws-contacts.mail.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ws-contacts.mail.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Strict-Transport-Security: max-age=15552000
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 13 Oct 2020 18:28:38 GMT
+< Referrer-Policy: no-referrer-when-downgrade
+< Age: 0
+< Server: ATS
+< X-Content-Type-Options: nosniff
+< X-Yahoo-Social-Host: prod4cws18.xobni.sg3.yahoo.com
+< Y-Rid: 3jistk5fobsem
+< Content-Length: 0
+

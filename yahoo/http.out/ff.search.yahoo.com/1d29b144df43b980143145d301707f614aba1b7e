@@ -1,0 +1,17 @@
+http://ff.search.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ff.search.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Referrer-Policy: no-referrer-when-downgrade
+< Location: https://ff.search.yahoo.com/
+< Content-Length: 25
+< Date: Tue, 13 Oct 2020 16:02:54 GMT
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://csp.search.yahoo.com/xssreport
+< Server: ATS
+< Content-Type: text/html
+
+301 Permanent Redirection

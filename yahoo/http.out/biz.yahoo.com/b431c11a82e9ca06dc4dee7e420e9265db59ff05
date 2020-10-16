@@ -1,0 +1,37 @@
+https://biz.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: biz.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Server: ATS
+< Content-Type: text/html
+< Set-Cookie: B=ekk37dhfobnh4&b=3&s=3r; expires=Wed, 13-Oct-2021 17:04:36 GMT; path=/; domain=.yahoo.com
+< Content-Length: 307
+< Location: http://finance.yahoo.com/
+< Referrer-Policy: no-referrer-when-downgrade
+< Cache-Control: no-store
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 17:04:36 GMT
+< Strict-Transport-Security: max-age=15552000
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< Age: 0
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "http://finance.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>

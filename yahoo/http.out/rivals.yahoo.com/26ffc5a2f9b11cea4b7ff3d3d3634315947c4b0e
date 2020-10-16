@@ -1,0 +1,36 @@
+https://rivals.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: rivals.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Location: https://n.rivals.com/
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< Server: ATS
+< Content-Length: 303
+< X-Content-Type-Options: nosniff
+< Content-Language: en
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-store
+< Strict-Transport-Security: max-age=15552000
+< Content-Type: text/html
+< Age: 1
+< Date: Tue, 13 Oct 2020 15:00:34 GMT
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://n.rivals.com/".
+</B></FONT>
+<HR>
+</BODY>

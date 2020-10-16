@@ -1,0 +1,20 @@
+http://frontier.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: frontier.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 8
+< Server: ATS
+< Cache-Control: no-store, no-cache
+< Content-Security-Policy: frame-ancestors 'self' https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-downloads; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=frontier&region=US&lang=en-US&device=&yrid=&partner=ftr;
+< Content-Language: en
+< Set-Cookie: B=5bt0khtfobrat&b=3&s=5h; expires=Wed, 13-Oct-2021 18:09:33 GMT; path=/; domain=.yahoo.com
+< Location: https://frontier.yahoo.com/
+< Date: Tue, 13 Oct 2020 18:09:33 GMT
+< Connection: keep-alive
+< Content-Type: text/html
+
+redirect

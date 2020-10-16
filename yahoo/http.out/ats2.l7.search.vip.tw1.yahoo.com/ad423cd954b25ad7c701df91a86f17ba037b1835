@@ -1,0 +1,20 @@
+http://ats2.l7.search.vip.tw1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ats2.l7.search.vip.tw1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 (OK)
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block; report=https://csp.search.yahoo.com/xssreport
+< Referrer-Policy: no-referrer-when-downgrade
+< Server: ATS
+< Vary: *
+< Content-Length: 4
+< Content-Type: text/plain
+< Strict-Transport-Security: max-age=15552000
+< Cache-Control: private
+< Date: Tue, 13 Oct 2020 14:38:30 GMT
+< Age: 0
+
+ok

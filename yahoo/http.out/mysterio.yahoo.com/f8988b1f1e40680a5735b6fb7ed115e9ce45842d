@@ -1,0 +1,22 @@
+https://mysterio.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: mysterio.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 11
+< Content-Type: text/html
+< Set-Cookie: B=4qu2cr9fobpq2&b=3&s=op; expires=Wed, 13-Oct-2021 17:43:30 GMT; path=/; domain=.yahoo.com
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: en
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 17:43:30 GMT
+< Strict-Transport-Security: max-age=31536000
+< Server: ATS
+< Cache-Control: no-store
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+
+Invalid Api

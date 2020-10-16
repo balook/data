@@ -1,0 +1,15 @@
+https://ir2-api.memberprofile.yahoo.com
+https://sg3-api.memberprofile.yahoo.com
+https://api-trunk.profile.yahoo.com
+https://api.credstore.yahoo.com
+https://api-trunk.memberprofile.yahoo.com
+https://gq1-api.memberprofile.yahoo.com
+https://bf1-api.memberprofile.yahoo.com
+https://ne1-api.memberprofile.yahoo.com
+https://api.profile.yahoo.com
+https://api1.credstore.vip.sg3.yahoo.com
+https://api1.credstore.vip.ir2.yahoo.com
+https://api1.credstore.vip.ne1.yahoo.com
+https://api1.credstore.vip.bf1.yahoo.com
+https://api.profile.lgg1.b.yahoo.com
+https://api1.credstore.vip.gq1.yahoo.com

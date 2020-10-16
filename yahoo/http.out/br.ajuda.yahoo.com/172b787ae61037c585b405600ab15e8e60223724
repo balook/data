@@ -1,0 +1,17 @@
+http://br.ajuda.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: br.ajuda.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Location: https://br.ajuda.yahoo.com/
+< Content-Language: en
+< Content-Length: 8
+< Content-Type: text/html
+< Set-Cookie: B=es8bm85fobpq3&b=3&s=8e; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+
+redirect

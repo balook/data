@@ -1,0 +1,17 @@
+http://media-router-ui72.prod.media.vip.ir2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: media-router-ui72.prod.media.vip.ir2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 13 Oct 2020 14:26:00 GMT
+< Content-Type: text/html
+< Server: ATS
+< Cache-Control: no-store
+< Content-Language: en
+< Set-Cookie: B=d3mi1r1fobe7o&b=3&s=ae; expires=Wed, 13-Oct-2021 14:26:00 GMT; path=/; domain=.yahoo.com
+< Location: https://media-router-ui72.prod.media.vip.ir2.yahoo.com/
+< Content-Length: 8
+
+redirect

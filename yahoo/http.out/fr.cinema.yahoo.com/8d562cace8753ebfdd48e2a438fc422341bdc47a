@@ -1,0 +1,17 @@
+http://fr.cinema.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: fr.cinema.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Set-Cookie: B=dpk2du1fobpq3&b=3&s=nn; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< Location: https://fr.cinema.yahoo.com/
+< Server: ATS
+< Cache-Control: no-store
+< Content-Type: text/html
+< Content-Language: en
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+
+redirect

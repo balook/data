@@ -1,0 +1,27 @@
+https://sg.featured.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: sg.featured.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Referrer-Policy: no-referrer-when-downgrade
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Strict-Transport-Security: max-age=15552000
+< Pragma: no-cache
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Vary: X-UA-Device, Accept
+< Server: ATS
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-store
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 0
+< X-Rid: b7dcf8dca8fc48052e4d663dd69f8f96
+< X-Tumblr-User: yahoosg-featured
+< X-Ua-Device: desktop
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 14:08:01 GMT
+< P3p: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+< Location: https://www.tumblr.com/login_required/yahoosg-featured
+< Age: 2
+

@@ -1,0 +1,17 @@
+http://api.view.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: api.view.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cache-Control: no-store
+< Content-Language: en
+< Location: https://api.view.yahoo.com/
+< Content-Length: 35
+< Date: Tue, 13 Oct 2020 17:43:53 GMT
+< Server: ATS
+< Content-Type: text/html
+< Set-Cookie: B=apotf6tfobpqp&b=3&s=g1; expires=Wed, 13-Oct-2021 17:43:53 GMT; path=/; domain=.yahoo.com
+
+api.view.yahoo.com does not exist

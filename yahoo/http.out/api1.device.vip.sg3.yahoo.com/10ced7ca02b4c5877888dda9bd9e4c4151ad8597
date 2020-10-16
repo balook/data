@@ -1,0 +1,19 @@
+https://api1.device.vip.sg3.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: api1.device.vip.sg3.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Xss-Protection: 1; mode=block
+< Server: device
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< Referrer-Policy: strict-origin-when-cross-origin
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=device-expect-ct-report-only"
+< Date: Tue, 13 Oct 2020 16:55:02 GMT
+< X-Content-Type-Options: nosniff
+< Content-Length: 93
+< Content-Type: text/html;charset=UTF-8
+
+RESTEASY003210: Could not find resource for full path: https://api1.device.vip.sg3.yahoo.com/

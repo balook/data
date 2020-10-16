@@ -1,0 +1,36 @@
+https://br.ajuda.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: br.ajuda.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Location: https://br.ajuda.yahoo.com/kb/account
+< Set-Cookie: B=d7etqpdfobpq3&b=3&s=t1; expires=Wed, 13-Oct-2021 17:43:31 GMT; path=/; domain=.yahoo.com
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Content-Language: en
+< Content-Type: text/html
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Content-Type-Options: nosniff
+< Content-Length: 319
+< Date: Tue, 13 Oct 2020 17:43:31 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Referrer-Policy: no-referrer-when-downgrade
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://br.ajuda.yahoo.com/kb/account".
+</B></FONT>
+<HR>
+</BODY>

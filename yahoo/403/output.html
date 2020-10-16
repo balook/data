@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>FFUF Report - </title>
+
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	/>
+	<link 
+	  rel="stylesheet" 
+	  type="text/css" 
+	  href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"
+	/>
+  
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FFUF</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <main class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center ">FFUF Report</h1>
+        <div class="row center">
+
+		<pre>ffuf -u http://FUZZ -w - -t 10000 -o output.hmtl -of html</pre>
+		<pre>2020-10-13T09:51:09Z</pre>
+
+   <table id="ffufreport">
+        <thead>
+        <div style="display:none">
+|result_raw|StatusCode|Input|Position|ContentLength|ContentWords|ContentLines|
+        </div>
+          <tr>
+              <th>Status</th>
+              <th>FUZZ</th>
+
+			  <th>URL</th>
+			  <th>Redirect location</th>
+              <th>Position</th>
+              <th>Length</th>
+              <th>Words</th>
+              <th>Lines</th>
+			  <th>Resultfile</th>
+          </tr>
+        </thead>
+
+        <tbody>
+			
+                <div style="display:none">
+|result_raw|200|bid-ats-ing.pbp.vip.sg3.yahoo.com|http://bid-ats-ing.pbp.vip.sg3.yahoo.com||130|40|7|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>bid-ats-ing.pbp.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://bid-ats-ing.pbp.vip.sg3.yahoo.com">http://bid-ats-ing.pbp.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>130</td>
+                    <td>40</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|bid-ats.pbp.vip.sg3.yahoo.com|http://bid-ats.pbp.vip.sg3.yahoo.com||128|40|7|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>bid-ats.pbp.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://bid-ats.pbp.vip.sg3.yahoo.com">http://bid-ats.pbp.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>128</td>
+                    <td>40</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|media-router-abu71.prod.media.vip.sg3.yahoo.com|http://media-router-abu71.prod.media.vip.sg3.yahoo.com|https://media-router-abu71.prod.media.vip.sg3.yahoo.com/|83|8|1|1|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>media-router-abu71.prod.media.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://media-router-abu71.prod.media.vip.sg3.yahoo.com">http://media-router-abu71.prod.media.vip.sg3.yahoo.com</a></td>
+                    <td><a href="https://media-router-abu71.prod.media.vip.sg3.yahoo.com/">https://media-router-abu71.prod.media.vip.sg3.yahoo.com/</a></td>
+                    <td>83</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|media-router-fp71.canary.media.vip.sg3.yahoo.com|http://media-router-fp71.canary.media.vip.sg3.yahoo.com|https://media-router-fp71.canary.media.vip.sg3.yahoo.com/|114|8|1|1|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>media-router-fp71.canary.media.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://media-router-fp71.canary.media.vip.sg3.yahoo.com">http://media-router-fp71.canary.media.vip.sg3.yahoo.com</a></td>
+                    <td><a href="https://media-router-fp71.canary.media.vip.sg3.yahoo.com/">https://media-router-fp71.canary.media.vip.sg3.yahoo.com/</a></td>
+                    <td>114</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|media-router-fp74.prod.media.vip.sg3.yahoo.com|http://media-router-fp74.prod.media.vip.sg3.yahoo.com|https://media-router-fp74.prod.media.vip.sg3.yahoo.com/|117|8|1|1|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>media-router-fp74.prod.media.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://media-router-fp74.prod.media.vip.sg3.yahoo.com">http://media-router-fp74.prod.media.vip.sg3.yahoo.com</a></td>
+                    <td><a href="https://media-router-fp74.prod.media.vip.sg3.yahoo.com/">https://media-router-fp74.prod.media.vip.sg3.yahoo.com/</a></td>
+                    <td>117</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|media-router-ui72.prod.media.vip.sg3.yahoo.com|http://media-router-ui72.prod.media.vip.sg3.yahoo.com|https://media-router-ui72.prod.media.vip.sg3.yahoo.com/|76|8|1|1|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>media-router-ui72.prod.media.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://media-router-ui72.prod.media.vip.sg3.yahoo.com">http://media-router-ui72.prod.media.vip.sg3.yahoo.com</a></td>
+                    <td><a href="https://media-router-ui72.prod.media.vip.sg3.yahoo.com/">https://media-router-ui72.prod.media.vip.sg3.yahoo.com/</a></td>
+                    <td>76</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|media-router-ui71.canary.media.vip.sg3.yahoo.com|http://media-router-ui71.canary.media.vip.sg3.yahoo.com|https://media-router-ui71.canary.media.vip.sg3.yahoo.com/|61|8|1|1|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>media-router-ui71.canary.media.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://media-router-ui71.canary.media.vip.sg3.yahoo.com">http://media-router-ui71.canary.media.vip.sg3.yahoo.com</a></td>
+                    <td><a href="https://media-router-ui71.canary.media.vip.sg3.yahoo.com/">https://media-router-ui71.canary.media.vip.sg3.yahoo.com/</a></td>
+                    <td>61</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|401|lop03.cdn.vip.sg3.yahoo.com|http://lop03.cdn.vip.sg3.yahoo.com||157|207|9|15|
+                </div>
+                <tr class="result-401" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">401</font></td>
+                    
+                        <td>lop03.cdn.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://lop03.cdn.vip.sg3.yahoo.com">http://lop03.cdn.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>157</td>
+                    <td>207</td>
+                    <td>9</td>
+                    <td>15</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|w2.src2.vip.sg3.yahoo.com|http://w2.src2.vip.sg3.yahoo.com||147|4438|1118|146|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>w2.src2.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://w2.src2.vip.sg3.yahoo.com">http://w2.src2.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>147</td>
+                    <td>4438</td>
+                    <td>1118</td>
+                    <td>146</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|spcms.pbp.vip.sg3.yahoo.com|http://spcms.pbp.vip.sg3.yahoo.com||228|0|1|1|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>spcms.pbp.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://spcms.pbp.vip.sg3.yahoo.com">http://spcms.pbp.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>228</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|w2.src3.vip.sg3.yahoo.com|http://w2.src3.vip.sg3.yahoo.com||250|4438|1118|146|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>w2.src3.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://w2.src3.vip.sg3.yahoo.com">http://w2.src3.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>250</td>
+                    <td>4438</td>
+                    <td>1118</td>
+                    <td>146</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|media-router-ui73.prod.media.vip.sg3.yahoo.com|http://media-router-ui73.prod.media.vip.sg3.yahoo.com|https://media-router-ui73.prod.media.vip.sg3.yahoo.com/|92|8|1|1|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>media-router-ui73.prod.media.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://media-router-ui73.prod.media.vip.sg3.yahoo.com">http://media-router-ui73.prod.media.vip.sg3.yahoo.com</a></td>
+                    <td><a href="https://media-router-ui73.prod.media.vip.sg3.yahoo.com/">https://media-router-ui73.prod.media.vip.sg3.yahoo.com/</a></td>
+                    <td>92</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|ats2.l7.search.vip.sg3.yahoo.com|http://ats2.l7.search.vip.sg3.yahoo.com||264|4|1|2|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>ats2.l7.search.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://ats2.l7.search.vip.sg3.yahoo.com">http://ats2.l7.search.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>264</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|bid-bucket-ing.pbp.vip.sg3.yahoo.com|http://bid-bucket-ing.pbp.vip.sg3.yahoo.com||176|40|7|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>bid-bucket-ing.pbp.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://bid-bucket-ing.pbp.vip.sg3.yahoo.com">http://bid-bucket-ing.pbp.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>176</td>
+                    <td>40</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|pr-preprod-ing.pbp.vip.sg3.yahoo.com|http://pr-preprod-ing.pbp.vip.sg3.yahoo.com||162|40|7|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>pr-preprod-ing.pbp.vip.sg3.yahoo.com</td>
+                    
+                    <td><a href="http://pr-preprod-ing.pbp.vip.sg3.yahoo.com">http://pr-preprod-ing.pbp.vip.sg3.yahoo.com</a></td>
+                    <td><a href=""></a></td>
+                    <td>162</td>
+                    <td>40</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+        </tbody>
+      </table>
+
+        </div>
+        <br /><br />
+      </div>
+    </main>
+
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#ffufreport').DataTable(
+            {
+                "aLengthMenu": [
+                    [250, 500, 1000, 2500, -1],
+                    [250, 500, 1000, 2500, "All"]
+                ]
+            }
+        )
+        $('select').formSelect();
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </body>
+</html>
+
+	

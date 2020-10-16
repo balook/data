@@ -1,0 +1,29 @@
+http://ipr.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ipr.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Date: Tue, 13 Oct 2020 18:28:38 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Location: https://ipr.yahoo.com/
+< Content-Type: text/html
+< Content-Language: en
+< Content-Length: 304
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://ipr.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>

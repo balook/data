@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>FFUF Report - </title>
+
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	/>
+	<link 
+	  rel="stylesheet" 
+	  type="text/css" 
+	  href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"
+	/>
+  
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FFUF</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <main class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center ">FFUF Report</h1>
+        <div class="row center">
+
+		<pre>ffuf -u https://jss.corp.vip.corp.gq1.yahoo.com/FUZZ -w /opt/files/all.txt -fw 13 -o output.html -of html</pre>
+		<pre>2020-10-11T10:36:11Z</pre>
+
+   <table id="ffufreport">
+        <thead>
+        <div style="display:none">
+|result_raw|StatusCode|Input|Position|ContentLength|ContentWords|ContentLines|
+        </div>
+          <tr>
+              <th>Status</th>
+              <th>FUZZ</th>
+
+			  <th>URL</th>
+			  <th>Redirect location</th>
+              <th>Position</th>
+              <th>Length</th>
+              <th>Words</th>
+              <th>Lines</th>
+			  <th>Resultfile</th>
+          </tr>
+        </thead>
+
+        <tbody>
+			
+                <div style="display:none">
+|result_raw|302|api|https://jss.corp.vip.corp.gq1.yahoo.com/api|/api/|9864|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>api</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/api</td><td>/api/</td><td>9864</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|401|api/error_log|https://jss.corp.vip.corp.gq1.yahoo.com/api/error_log||9869|42|10|4|
+                </div>
+				<tr class="result-401" style="background-color: #d2cb7e;"><td><font color="black" class="status-code">401</font></td><td>api/error_log</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/api/error_log</td><td></td><td>9869</td><td>42</td><td>10</td><td>4</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|401|api/experiments|https://jss.corp.vip.corp.gq1.yahoo.com/api/experiments||9870|42|10|4|
+                </div>
+				<tr class="result-401" style="background-color: #d2cb7e;"><td><font color="black" class="status-code">401</font></td><td>api/experiments</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/api/experiments</td><td></td><td>9870</td><td>42</td><td>10</td><td>4</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|200|api/|https://jss.corp.vip.corp.gq1.yahoo.com/api/||9868|14162|29|44|
+                </div>
+				<tr class="result-200" style="background-color: #adea9e;"><td><font color="black" class="status-code">200</font></td><td>api/</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/api/</td><td></td><td>9868</td><td>14162</td><td>29</td><td>44</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|401|api/experiments/configurations|https://jss.corp.vip.corp.gq1.yahoo.com/api/experiments/configurations||9871|42|10|4|
+                </div>
+				<tr class="result-401" style="background-color: #d2cb7e;"><td><font color="black" class="status-code">401</font></td><td>api/experiments/configurations</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/api/experiments/configurations</td><td></td><td>9871</td><td>42</td><td>10</td><td>4</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|401|api/jsonws/invoke|https://jss.corp.vip.corp.gq1.yahoo.com/api/jsonws/invoke||9872|42|10|4|
+                </div>
+				<tr class="result-401" style="background-color: #d2cb7e;"><td><font color="black" class="status-code">401</font></td><td>api/jsonws/invoke</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/api/jsonws/invoke</td><td></td><td>9872</td><td>42</td><td>10</td><td>4</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|401|api/swagger.yml|https://jss.corp.vip.corp.gq1.yahoo.com/api/swagger.yml||9873|42|10|4|
+                </div>
+				<tr class="result-401" style="background-color: #d2cb7e;"><td><font color="black" class="status-code">401</font></td><td>api/swagger.yml</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/api/swagger.yml</td><td></td><td>9873</td><td>42</td><td>10</td><td>4</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|200|bin|https://jss.corp.vip.corp.gq1.yahoo.com/bin||12675|0|1|1|
+                </div>
+				<tr class="result-200" style="background-color: #adea9e;"><td><font color="black" class="status-code">200</font></td><td>bin</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/bin</td><td></td><td>12675</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|200|client|https://jss.corp.vip.corp.gq1.yahoo.com/client||16438|659|8|1|
+                </div>
+				<tr class="result-200" style="background-color: #adea9e;"><td><font color="black" class="status-code">200</font></td><td>client</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/client</td><td></td><td>16438</td><td>659</td><td>8</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|enrol|https://jss.corp.vip.corp.gq1.yahoo.com/enrol|/enrol/|22886|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>enrol</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/enrol</td><td>/enrol/</td><td>22886</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|enroll|https://jss.corp.vip.corp.gq1.yahoo.com/enroll|/enroll/|22887|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>enroll</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/enroll</td><td>/enroll/</td><td>22887</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|200|favicon.ico|https://jss.corp.vip.corp.gq1.yahoo.com/favicon.ico||24192|23982|70|27|
+                </div>
+				<tr class="result-200" style="background-color: #adea9e;"><td><font color="black" class="status-code">200</font></td><td>favicon.ico</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/favicon.ico</td><td></td><td>24192</td><td>23982</td><td>70</td><td>27</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|200|icon|https://jss.corp.vip.corp.gq1.yahoo.com/icon||29443|0|1|1|
+                </div>
+				<tr class="result-200" style="background-color: #adea9e;"><td><font color="black" class="status-code">200</font></td><td>icon</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/icon</td><td></td><td>29443</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|images|https://jss.corp.vip.corp.gq1.yahoo.com/images|/ui/imagesnull|29782|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>images</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/images</td><td>/ui/imagesnull</td><td>29782</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|images/README|https://jss.corp.vip.corp.gq1.yahoo.com/images/README|/ui/images/README|29820|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>images/README</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/images/README</td><td>/ui/images/README</td><td>29820</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|images/Sym.php|https://jss.corp.vip.corp.gq1.yahoo.com/images/Sym.php|/ui/images/Sym.php|29821|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>images/Sym.php</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/images/Sym.php</td><td>/ui/images/Sym.php</td><td>29821</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|images/c99.php|https://jss.corp.vip.corp.gq1.yahoo.com/images/c99.php|/ui/images/c99.php|29822|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>images/c99.php</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/images/c99.php</td><td>/ui/images/c99.php</td><td>29822</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|javascripts|https://jss.corp.vip.corp.gq1.yahoo.com/javascripts|/javascripts/|31622|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>javascripts</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/javascripts</td><td>/javascripts/</td><td>31622</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|register|https://jss.corp.vip.corp.gq1.yahoo.com/register|/register/|46764|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>register</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/register</td><td>/register/</td><td>46764</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|200|robots.txt|https://jss.corp.vip.corp.gq1.yahoo.com/robots.txt||47642|28|3|3|
+                </div>
+				<tr class="result-200" style="background-color: #adea9e;"><td><font color="black" class="status-code">200</font></td><td>robots.txt</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/robots.txt</td><td></td><td>47642</td><td>28</td><td>3</td><td>3</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|stylesheets|https://jss.corp.vip.corp.gq1.yahoo.com/stylesheets|/stylesheets/|52662|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>stylesheets</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/stylesheets</td><td>/stylesheets/</td><td>52662</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|302|ui|https://jss.corp.vip.corp.gq1.yahoo.com/ui|/ui/|56207|0|1|1|
+                </div>
+				<tr class="result-302" style="background-color: #bbbbe6;"><td><font color="black" class="status-code">302</font></td><td>ui</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/ui</td><td>/ui/</td><td>56207</td><td>0</td><td>1</td><td>1</td><td></td></tr>
+            
+                <div style="display:none">
+|result_raw|200|vpp|https://jss.corp.vip.corp.gq1.yahoo.com/vpp||58467|4107|197|158|
+                </div>
+				<tr class="result-200" style="background-color: #adea9e;"><td><font color="black" class="status-code">200</font></td><td>vpp</td></td><td>https://jss.corp.vip.corp.gq1.yahoo.com/vpp</td><td></td><td>58467</td><td>4107</td><td>197</td><td>158</td><td></td></tr>
+            
+        </tbody>
+      </table>
+
+        </div>
+        <br /><br />
+      </div>
+    </main>
+
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#ffufreport').DataTable(
+            {
+                "aLengthMenu": [
+                    [250, 500, 1000, 2500, -1],
+                    [250, 500, 1000, 2500, "All"]
+                ]
+            }
+        )
+        $('select').formSelect();
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </body>
+</html>
+
+	

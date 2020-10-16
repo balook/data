@@ -1,0 +1,16 @@
+https://ups.analytics.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ups.analytics.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< P3p: CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV
+< Age: 0
+< Date: Tue, 13 Oct 2020 14:20:05 GMT
+< Content-Length: 0
+< Strict-Transport-Security: max-age=31536000
+< Server: ATS/7.1.2.113
+< Set-Cookie: A3=d=AQABBJW3hV8CEKCA2D_H3BVac9tphAj1WLYFEgEBAQEJh1-PXwAAAAAA_SMAAA&S=AQAAApOzOcXpAWmwd_nE_Ctz80g; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly
+< Set-Cookie: B=bcm7l11fobdsl&b=3&s=58; Max-Age=31557600; Domain=.yahoo.com; Path=/
+

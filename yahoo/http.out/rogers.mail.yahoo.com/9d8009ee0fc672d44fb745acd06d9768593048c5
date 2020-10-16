@@ -1,0 +1,24 @@
+https://rogers.mail.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: rogers.mail.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Vary: Accept
+< Content-Type: text/plain; charset=utf-8
+< Age: 0
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: origin-when-cross-origin
+< Strict-Transport-Security: max-age=15552000
+< Location: https://login.yahoo.com?.src=ym&.partner=rogers-acs&.intl=ca&.done=https%3A%2F%2Fmail.yahoo.com%2Fd
+< Date: Tue, 13 Oct 2020 18:15:19 GMT
+< Server: ATS
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< X-Omg-Env: norrin-blue--production-sg3-7854595df7-9mgrp
+< Content-Length: 121
+< Content-Security-Policy: child-src blob:;connect-src 'self' https://*.yimg.com https://*.yahoo.com https://s.yimg.com/nq/ads/mb/native/* https://service.cmp.oath.com https://www.yahoo.com/p.gif https://smetrics.att.com/id https://dpm.demdex.net/id https://video-api.yql.yahoo.com/ https://edgecast-vod.yahoo.net/ https://*.vpg.cdn.yimg.com/ https://media.zenfs.com/ https://assets.video.yahoo.net/ https://ads.adaptv.advertising.com/ https://video.adaptv.advertising.com/ https://edgecast-cf-prod.yahoo.net/;default-src 'self';font-src https: data:;frame-src https://*.yahoo.com https://*.yimg.com https://*.ymail.com https://6518610.fls.doubleclick.net/ https://6589630.fls.doubleclick.net/ https://8523621.fls.doubleclick.net/ https://delivery.vidible.tv/ https://secure.bannerfarm.ace.advertising.com https://cmp.advertising.com https://assets.video.yahoo.net/ https://cdn-ssl.vidible.tv/prod/ https://safeframes-mbst-pub-uw1.s3-us-west-1.amazonaws.com/darla/ https://www.googletagmanager.com/ns.html;img-src data: blob: http: https:;media-src blob: https://*.yahoo.com https://*.yimg.com;report-uri https://csp.yahoo.com/beacon/csp?src=mail-norrin;script-src 'self' https://s.yimg.com/nq/nr/ https://s.yimg.com/os/yaft/ https://s.yimg.com/ss/ https://s.yimg.com/aaq/yc/ https://s.yimg.com/rq/darla/ https://fc.yahoo.com/sdarla/ https://e2e.fc.yahoo.com/sdarla/ https://safeframes-mbst-pub-uw1.s3-us-west-1.amazonaws.com/darla/ https://s.yimg.com/ds/scripts/ https://www.yahoo.com/polyfill.min.js https://yep.video.yahoo.com/js/ https://www.gstatic.com/cv/js/sender/v1/cast_sender.js https://s.yimg.com/aaq/vzm/ https://cdn-ssl.vidible.tv/prod/player/js/ https://yep.video.yahoo.com/ https://s.yimg.com/rx/ https://assets.video.yahoo.net/ https://jsapi.login.yahoo.com/w/ https://s.yimg.com/cv/apiv2/partner-portals/att/adobe_analytics/ https://consent.cmp.oath.com/ https://s.yimg.com/oa/ https://s.yimg.com/uc/sf/ https://s.yimg.com/aaq/ 'sha256-lRMQ2lQozgbWLOqNJOrnclJXX6G77pQVIlF8SAI3++I=' 'unsafe-inline' 'unsafe-eval' 'report-sample' 'nonce-1x04qh5/8c+tmHVOZKkCIonHLMC+zflxyeAu4rEAJROpV/+K' ;style-src 'self' https://s.yimg.com/nq/nr/ https://s.yimg.com/rx/ https://assets.video.yahoo.net/ https://s.yimg.com/aaq/fp/ 'unsafe-inline';worker-src 'self' blob:;manifest-src https://s.yimg.com/nq/nr/json/
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+
+Found. Redirecting to https://login.yahoo.com?.src=ym&.partner=rogers-acs&.intl=ca&.done=https%3A%2F%2Fmail.yahoo.com%2Fd

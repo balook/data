@@ -1,0 +1,21 @@
+https://poweredby.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: poweredby.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Request-Id: 0D9080858F143AA1
+< X-Amz-Id-2: pG0CrMnGxyinTnPYSIU2rJEmx9C1QkJSHlifh2O4nEC5R8xn038IACWfTxUZ2MCKlYSVSvhJWhg=
+< Content-Type: application/xml
+< Date: Tue, 13 Oct 2020 18:16:21 GMT
+< Server: ATS
+< Referrer-Policy: no-referrer-when-downgrade
+< Age: 2
+< Strict-Transport-Security: max-age=15552000
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0D9080858F143AA1</RequestId><HostId>pG0CrMnGxyinTnPYSIU2rJEmx9C1QkJSHlifh2O4nEC5R8xn038IACWfTxUZ2MCKlYSVSvhJWhg=</HostId></Error>

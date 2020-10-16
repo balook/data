@@ -1,0 +1,33 @@
+https://daxlopo01.cdn.dax.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: daxlopo01.cdn.dax.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< X-Frame-Options: DENY
+< Content-Length: 207
+< Date: Tue, 13 Oct 2020 16:18:46 GMT
+< Cache-Control: no-store
+< Content-Language: en
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: ATS
+< Content-Type: text/html
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Content-Type-Options: nosniff
+
+<HTML>
+<HEAD>
+<TITLE>Error</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Error</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: Could not process this request.
+</B></FONT>
+<HR>
+</BODY>

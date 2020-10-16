@@ -1,0 +1,15 @@
+http://vendor-beta.g11n.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: vendor-beta.g11n.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Type: application/json
+< Content-Length: 54
+< Referrer-Policy: no-referrer-when-downgrade
+< Date: Tue, 13 Oct 2020 17:04:37 GMT
+< Age: 1
+< Server: ATS
+
+{"status":401,"error":"The access token is required."}

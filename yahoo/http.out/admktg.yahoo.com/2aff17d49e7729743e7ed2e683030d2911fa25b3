@@ -1,0 +1,27 @@
+https://admktg.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: admktg.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Tue, 13 Oct 2020 15:24:14 GMT
+< Content-Type: text/html
+< Cache-Control: private, no-cache, no-store, max-age=0
+< X-Content-Type-Options: nosniff
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Cf-Cache-Status: DYNAMIC
+< Set-Cookie: __cfduid=de4b743d42a09c0eb9fd74aefc4a7ba941602602653; expires=Thu, 12-Nov-20 15:24:13 GMT; path=/; domain=.admktg.yahoo.com; HttpOnly; SameSite=Lax
+< Set-Cookie: BIGipServerab_mailtracking_80=!Uv/82xZk8538jLlybf/nLIVwOTHiDpbGOwSZSDwwa26K7AXznLuSyTlzXn8u0cjF0r6Y1/j22xvliQc=; path=/; Httponly; Secure
+< Vary: Accept-Encoding
+< Cf-Request-Id: 05c428ee000000dc7d7c2de200000001
+< Cf-Ray: 5e1a10f66d99dc7d-MAA
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

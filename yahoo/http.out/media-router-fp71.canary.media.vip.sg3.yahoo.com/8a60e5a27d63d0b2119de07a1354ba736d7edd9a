@@ -1,0 +1,24 @@
+https://media-router-fp71.canary.media.vip.sg3.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: media-router-fp71.canary.media.vip.sg3.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: B=1lrkivhfobh6c&b=3&s=g8; expires=Wed, 13-Oct-2021 15:16:28 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 15:16:28 GMT
+< Server: ATS
+< X-Frame-Options: SAMEORIGIN
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Content-Type-Options: nosniff
+< Location: https://www.yahoo.com/
+< Connection: keep-alive
+< Cache-Control: no-store, no-cache
+< Content-Language: en
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html
+
+redirect

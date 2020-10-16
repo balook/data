@@ -1,0 +1,19 @@
+http://yep.video.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: yep.video.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: B=59mmqklfobsep&b=3&s=4o; expires=Wed, 13-Oct-2021 18:28:41 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+< Referrer-Policy: no-referrer-when-downgrade
+< Age: 0
+< Date: Tue, 13 Oct 2020 18:28:41 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Content-Type: text/html
+< Content-Language: en
+< Location: https://yep.video.yahoo.com/p
+
+redirect

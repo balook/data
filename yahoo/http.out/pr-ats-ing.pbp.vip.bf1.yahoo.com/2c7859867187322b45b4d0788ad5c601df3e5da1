@@ -1,0 +1,19 @@
+http://pr-ats-ing.pbp.vip.bf1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: pr-ats-ing.pbp.vip.bf1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Content-Length: 40
+< Date: Tue, 13 Oct 2020 18:00:31 GMT
+< Set-Cookie: B=dcmjqe5fobqpv&b=3&s=hq; Path=/; Domain=.yahoo.com; Expires=Wed, 13-Oct-2021 18:00:31 GMT; Max-Age=31536000
+< Last-Modified: Thu, 08 Oct 2020 02:27:09 GMT
+< Content-Type: text/html
+< Etag: W/"5SLXKFhR0Mo5SLWXV5ZTKo"
+< Accept-Ranges: bytes
+< Age: 0
+< Server: ATS
+
+Welcome to Yahoo Ad Manager Plus (YAM+)!

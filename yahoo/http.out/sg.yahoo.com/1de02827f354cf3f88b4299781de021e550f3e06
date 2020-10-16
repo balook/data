@@ -1,0 +1,21 @@
+http://sg.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: sg.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 13 Oct 2020 18:09:31 GMT
+< Content-Type: text/html
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; report="https://csp.yahoo.com/beacon/csp?src=fp-hpkp-sg"
+< Location: https://sg.yahoo.com/
+< Content-Length: 8
+< Connection: keep-alive
+< Server: ATS
+< Cache-Control: no-store, no-cache
+< Content-Security-Policy: frame-ancestors 'self' https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-downloads; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=frontpage&region=SG&lang=en-SG&device=&yrid=&partner=;
+< Set-Cookie: B=bjk6591fobrar&b=3&s=i1; expires=Wed, 13-Oct-2021 18:09:31 GMT; path=/; domain=.yahoo.com
+
+redirect

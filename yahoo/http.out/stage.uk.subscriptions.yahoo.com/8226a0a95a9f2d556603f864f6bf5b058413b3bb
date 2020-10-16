@@ -1,0 +1,29 @@
+http://stage.uk.subscriptions.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: stage.uk.subscriptions.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Content-Length: 323
+< Date: Tue, 13 Oct 2020 18:15:19 GMT
+< Server: ATS
+< Cache-Control: no-store
+< Location: https://stage.uk.subscriptions.yahoo.com/
+< Content-Type: text/html
+< Content-Language: en
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://stage.uk.subscriptions.yahoo.com/".
+</B></FONT>
+<HR>
+</BODY>

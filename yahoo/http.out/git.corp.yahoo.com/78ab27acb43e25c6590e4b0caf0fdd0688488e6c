@@ -1,0 +1,19 @@
+https://git.corp.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: git.corp.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: awselb/2.0
+< Date: Tue, 13 Oct 2020 15:18:54 GMT
+< Content-Type: text/html
+< Content-Length: 134
+< Location: https://git.vzbuilders.com:443/
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+</body>
+</html>

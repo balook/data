@@ -1,0 +1,14 @@
+http://private.comet.vip.gq1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: private.comet.vip.gq1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 13 Oct 2020 18:29:34 GMT
+< Age: 0
+< X-Frame-Options: DENY
+

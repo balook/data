@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>FFUF Report - </title>
+
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	/>
+	<link 
+	  rel="stylesheet" 
+	  type="text/css" 
+	  href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"
+	/>
+  
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FFUF</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <main class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center ">FFUF Report</h1>
+        <div class="row center">
+
+		<pre>ffuf -u http://querybuilder.v1.production.omega.gq1.yahoo.com/FUZZ -w /opt/files/content_discovery_all.txt -t 1000 -fw 1 -o production.html -of html</pre>
+		<pre>2020-10-15T11:48:54Z</pre>
+
+   <table id="ffufreport">
+        <thead>
+        <div style="display:none">
+|result_raw|StatusCode|Input|Position|ContentLength|ContentWords|ContentLines|
+        </div>
+          <tr>
+              <th>Status</th>
+              <th>FUZZ</th>
+
+			  <th>URL</th>
+			  <th>Redirect location</th>
+              <th>Position</th>
+              <th>Length</th>
+              <th>Words</th>
+              <th>Lines</th>
+			  <th>Resultfile</th>
+          </tr>
+        </thead>
+
+        <tbody>
+			
+                <div style="display:none">
+|result_raw|301|.|http://querybuilder.v1.production.omega.gq1.yahoo.com/.|/./|21|169|7|11|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>.</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/.">http://querybuilder.v1.production.omega.gq1.yahoo.com/.</a></td>
+                    <td><a href="/./">/./</a></td>
+                    <td>21</td>
+                    <td>169</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200||http://querybuilder.v1.production.omega.gq1.yahoo.com/||39|2393|68|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td></td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/">http://querybuilder.v1.production.omega.gq1.yahoo.com/</a></td>
+                    <td><a href=""></a></td>
+                    <td>39</td>
+                    <td>2393</td>
+                    <td>68</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|/|http://querybuilder.v1.production.omega.gq1.yahoo.com//||18|2393|68|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>/</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com//">http://querybuilder.v1.production.omega.gq1.yahoo.com//</a></td>
+                    <td><a href=""></a></td>
+                    <td>18</td>
+                    <td>2393</td>
+                    <td>68</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|favicon.ico|http://querybuilder.v1.production.omega.gq1.yahoo.com/favicon.ico||108991|2381|10|15|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>favicon.ico</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/favicon.ico">http://querybuilder.v1.production.omega.gq1.yahoo.com/favicon.ico</a></td>
+                    <td><a href=""></a></td>
+                    <td>108991</td>
+                    <td>2381</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|index.html|http://querybuilder.v1.production.omega.gq1.yahoo.com/index.html||158057|2393|68|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>index.html</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/index.html">http://querybuilder.v1.production.omega.gq1.yahoo.com/index.html</a></td>
+                    <td><a href=""></a></td>
+                    <td>158057</td>
+                    <td>2393</td>
+                    <td>68</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|manifest.json|http://querybuilder.v1.production.omega.gq1.yahoo.com/manifest.json||194978|298|57|16|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>manifest.json</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/manifest.json">http://querybuilder.v1.production.omega.gq1.yahoo.com/manifest.json</a></td>
+                    <td><a href=""></a></td>
+                    <td>194978</td>
+                    <td>298</td>
+                    <td>57</td>
+                    <td>16</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|rotation|http://querybuilder.v1.production.omega.gq1.yahoo.com/rotation||282245|37|6|2|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>rotation</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/rotation">http://querybuilder.v1.production.omega.gq1.yahoo.com/rotation</a></td>
+                    <td><a href=""></a></td>
+                    <td>282245</td>
+                    <td>37</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|static|http://querybuilder.v1.production.omega.gq1.yahoo.com/static|/static/|311881|179|7|11|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>static</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/static">http://querybuilder.v1.production.omega.gq1.yahoo.com/static</a></td>
+                    <td><a href="/static/">/static/</a></td>
+                    <td>311881</td>
+                    <td>179</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|static/css|http://querybuilder.v1.production.omega.gq1.yahoo.com/static/css|/static/css/|312102|187|7|11|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>static/css</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/static/css">http://querybuilder.v1.production.omega.gq1.yahoo.com/static/css</a></td>
+                    <td><a href="/static/css/">/static/css/</a></td>
+                    <td>312102</td>
+                    <td>187</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|static/js|http://querybuilder.v1.production.omega.gq1.yahoo.com/static/js|/static/js/|312284|185|7|11|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>static/js</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/static/js">http://querybuilder.v1.production.omega.gq1.yahoo.com/static/js</a></td>
+                    <td><a href="/static/js/">/static/js/</a></td>
+                    <td>312284</td>
+                    <td>185</td>
+                    <td>7</td>
+                    <td>11</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|www.pornhub.com/|http://querybuilder.v1.production.omega.gq1.yahoo.com/www.pornhub.com/||367090|248|7|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>www.pornhub.com/</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/www.pornhub.com/">http://querybuilder.v1.production.omega.gq1.yahoo.com/www.pornhub.com/</a></td>
+                    <td><a href=""></a></td>
+                    <td>367090</td>
+                    <td>248</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|www.xvideos.com/|http://querybuilder.v1.production.omega.gq1.yahoo.com/www.xvideos.com/||367226|248|7|1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>www.xvideos.com/</td>
+                    
+                    <td><a href="http://querybuilder.v1.production.omega.gq1.yahoo.com/www.xvideos.com/">http://querybuilder.v1.production.omega.gq1.yahoo.com/www.xvideos.com/</a></td>
+                    <td><a href=""></a></td>
+                    <td>367226</td>
+                    <td>248</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            
+        </tbody>
+      </table>
+
+        </div>
+        <br /><br />
+      </div>
+    </main>
+
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#ffufreport').DataTable(
+            {
+                "aLengthMenu": [
+                    [250, 500, 1000, 2500, -1],
+                    [250, 500, 1000, 2500, "All"]
+                ]
+            }
+        )
+        $('select').formSelect();
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </body>
+</html>
+
+	

@@ -1,0 +1,13 @@
+https://dev.token-service.payment.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: dev.token-service.payment.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: token-service
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 13 Oct 2020 14:49:24 GMT
+< Content-Type: text/html;charset=UTF-8
+
+RESTEASY003210: Could not find resource for full path: https://dev.token-service.payment.yahoo.com/

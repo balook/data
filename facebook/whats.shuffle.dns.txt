@@ -1,0 +1,17 @@
+faq.whatsapp.com
+dev-web.whatsapp.com
+translate.whatsapp.com
+payments-localisation.whatsapp.com
+whatsapp.com
+web.whatsapp.com
+test-web.whatsapp.com
+blog.whatsapp.com
+up.web.whatsapp.com
+www.v.whatsapp.com
+api.whatsapp.com
+account.whatsapp.com
+autodiscover.whatsapp.com
+www.whatsapp.com
+v.whatsapp.com
+chat.whatsapp.com
+b.whatsapp.com

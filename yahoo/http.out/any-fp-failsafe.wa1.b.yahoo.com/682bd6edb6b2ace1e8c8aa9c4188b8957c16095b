@@ -1,0 +1,17 @@
+http://any-fp-failsafe.wa1.b.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: any-fp-failsafe.wa1.b.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Language: en
+< Expires: -1
+< Content-Length: 8
+< Server: ATS
+< Cache-Control: no-store, no-cache, private, max-age=0
+< Location: https://any-fp-failsafe.wa1.b.yahoo.com/
+< Date: Tue, 13 Oct 2020 16:13:23 GMT
+
+redirect

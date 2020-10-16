@@ -1,0 +1,16 @@
+http://beap.adss.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: beap.adss.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Content-Type: text/html
+< Content-Length: 0
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 18:01:54 GMT
+< Age: 0
+< Server: ATS
+< X-Frame-Options: SAMEORIGIN
+

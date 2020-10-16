@@ -1,0 +1,29 @@
+https://jss.corp.vip.corp.gq1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: jss.corp.vip.corp.gq1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 
+< Set-Cookie: SESSION=MWVkODI0YjAtMjA2MS00MDgzLWFlYjMtNzAwMTVjOWJkNzg2; Path=/; Secure; HttpOnly; SameSite=Lax
+< Content-Length: 290
+< Date: Tue, 13 Oct 2020 13:51:12 GMT
+< Server: Apache Tomcat
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0
+
+<html>
+	<body>
+		<table class="alignLeft" width="100%" border=0>
+			<tr>
+				<td align="left">
+					<h1>Web Application Disabled</h1>
+					<font class="assistantNote">
+						Your web application has been disabled.
+						<BR/><BR/>
+					</font>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+http://id.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: id.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://id.yahoo.com/
+< Date: Tue, 13 Oct 2020 18:09:32 GMT
+< Connection: keep-alive
+< Cache-Control: no-store, no-cache
+< Content-Type: text/html
+< Content-Security-Policy: frame-ancestors 'self' https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-downloads; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=frontpage&region=ID&lang=id-ID&device=&yrid=&partner=;
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: B=e7suuctfobras&b=3&s=fi; expires=Wed, 13-Oct-2021 18:09:32 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+< Server: ATS
+< Content-Language: en
+< X-Xss-Protection: 1; report="https://csp.yahoo.com/beacon/csp?src=fp-hpkp-id"
+
+redirect

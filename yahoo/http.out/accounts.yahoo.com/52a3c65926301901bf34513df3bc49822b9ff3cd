@@ -1,0 +1,23 @@
+https://accounts.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: accounts.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600, private
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 14:36:47 GMT
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Length: 0
+< Age: 0
+< Server: ATS
+< Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+< Set-Cookie: B=e4i9rcdfoberv&b=3&s=t5; expires=Wed, 13-Oct-2021 14:36:47 GMT; path=/; domain=.yahoo.com; secure
+< Content-Type: text/html; charset=UTF-8
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Frame-Options: DENY
+< Location: https://login.yahoo.com/accont/personalinfo
+

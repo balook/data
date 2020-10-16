@@ -1,0 +1,19 @@
+http://alerts.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: alerts.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-store, no-cache
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: B=378oqn5fobran&b=3&s=vi; expires=Wed, 13-Oct-2021 18:09:27 GMT; path=/; domain=.yahoo.com
+< Location: https://alerts.yahoo.com/
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 18:09:27 GMT
+< Server: ATS
+< Content-Language: en
+< Connection: keep-alive
+< Content-Type: text/html
+
+redirect

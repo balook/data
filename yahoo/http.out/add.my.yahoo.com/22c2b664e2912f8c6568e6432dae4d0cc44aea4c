@@ -1,0 +1,19 @@
+http://add.my.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: add.my.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Set-Cookie: B=eak5969fobrc9&b=3&s=s2; expires=Wed, 13-Oct-2021 18:10:17 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+< Content-Type: text/html
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-store, no-cache
+< Location: https://add.my.yahoo.com/
+< Date: Tue, 13 Oct 2020 18:10:17 GMT
+< Connection: keep-alive
+< Server: ATS
+
+redirect

@@ -1,0 +1,36 @@
+https://de.stars.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: de.stars.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Set-Cookie: B=9p2hk8pfobpq5&b=3&s=12; expires=Wed, 13-Oct-2021 17:43:33 GMT; path=/; domain=.yahoo.com
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Content-Language: en
+< Content-Type: text/html
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 13 Oct 2020 17:43:33 GMT
+< Server: ATS
+< Content-Length: 320
+< Cache-Control: no-store
+< X-Frame-Options: SAMEORIGIN
+< Referrer-Policy: no-referrer-when-downgrade
+< Location: https://de.nachrichten.yahoo.com/stars
+
+<HTML>
+<HEAD>
+<TITLE>Document Has Moved</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Document Has Moved</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: The document you requested has moved to a new location.  The new location is "https://de.nachrichten.yahoo.com/stars".
+</B></FONT>
+<HR>
+</BODY>

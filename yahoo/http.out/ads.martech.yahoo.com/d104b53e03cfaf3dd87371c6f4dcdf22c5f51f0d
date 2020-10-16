@@ -1,0 +1,17 @@
+http://ads.martech.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: ads.martech.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ATS
+< Set-Cookie: B=be8bkthfobpq2&b=3&s=5t; expires=Wed, 13-Oct-2021 17:43:30 GMT; path=/; domain=.yahoo.com
+< Location: https://ads.martech.yahoo.com/
+< Content-Length: 8
+< Date: Tue, 13 Oct 2020 17:43:30 GMT
+< Cache-Control: no-store
+< Content-Type: text/html
+< Content-Language: en
+
+redirect

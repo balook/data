@@ -1,0 +1,16 @@
+http://beap1.cbs.vip.ir2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: beap1.cbs.vip.ir2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 Bad Request
+< Date: Tue, 13 Oct 2020 14:50:49 GMT
+< Age: 0
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html
+< Content-Length: 0
+< Server: ATS
+< X-Frame-Options: SAMEORIGIN
+

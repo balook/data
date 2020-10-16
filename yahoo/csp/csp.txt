@@ -1,0 +1,2 @@
+https://csp.search.yahoo.com/xssreport/.ftpquota
+http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only

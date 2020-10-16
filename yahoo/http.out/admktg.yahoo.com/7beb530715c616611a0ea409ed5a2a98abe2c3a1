@@ -1,0 +1,27 @@
+http://admktg.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: admktg.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Server: cloudflare
+< Cache-Control: private, no-cache, no-store, max-age=0
+< Vary: Accept-Encoding
+< Cf-Cache-Status: DYNAMIC
+< Cf-Request-Id: 05c428edec00001d3f5687a200000001
+< Cf-Ray: 5e1a10f649881d3f-MAA
+< Set-Cookie: __cfduid=dd07635b7824c7458bb422085550682c31602602653; expires=Thu, 12-Nov-20 15:24:13 GMT; path=/; domain=.admktg.yahoo.com; HttpOnly; SameSite=Lax
+< Set-Cookie: BIGipServerab_mailtracking_80=!1yeO0Di4tE/jXFdybf/nLIVwOTHiDkmpD86eY2xD1n5u97O8jyiNIHcbOiJ2XqoBQfn0m2V7WUhtU8A=; path=/; Httponly
+< Set-Cookie: __cf_bm=14b2da0e8f408b8f33e8f9101690b45368598665-1602602653-1800-AfXpjDgG3gdKolODInEPIoTgCljo9lQB5qbXNSJwhVIg7lIoCqH6ofEdm6wp//AoU8ByKNmCKpcDO0ZA1VBowgQ=; path=/; expires=Tue, 13-Oct-20 15:54:13 GMT; domain=.admktg.yahoo.com; HttpOnly; SameSite=None
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 15:24:13 GMT
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

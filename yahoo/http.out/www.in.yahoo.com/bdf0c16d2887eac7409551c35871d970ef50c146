@@ -1,0 +1,21 @@
+http://www.in.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: www.in.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+< Content-Length: 0
+< Cache-Control: max-age=3600, private
+< Location: https://in.yahoo.com/
+< Server: ATS
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< X-Frame-Options: DENY
+< Referrer-Policy: strict-origin-when-cross-origin
+< Age: 0
+< Set-Cookie: B=8gn2cvpfobrkc&b=3&s=2k; expires=Wed, 13-Oct-2021 18:14:36 GMT; path=/; domain=.yahoo.com; secure
+< X-Content-Type-Options: nosniff
+< Date: Tue, 13 Oct 2020 18:14:36 GMT
+

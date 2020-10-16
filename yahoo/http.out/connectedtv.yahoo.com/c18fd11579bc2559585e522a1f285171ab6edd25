@@ -1,0 +1,23 @@
+https://connectedtv.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: connectedtv.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< Cache-Control: max-age=3600, private
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Set-Cookie: B=1l9pguhfoberl&b=3&s=7b; expires=Wed, 13-Oct-2021 14:36:37 GMT; path=/; domain=.yahoo.com; secure
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: DENY
+< Age: 0
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+< Date: Tue, 13 Oct 2020 14:36:37 GMT
+< Location: https://smarttv.yahoo.com/
+< Content-Length: 0
+< Strict-Transport-Security: max-age=31536000
+< Server: ATS
+

@@ -1,0 +1,24 @@
+https://insights.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: insights.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Tue, 13 Oct 2020 18:30:11 GMT
+< Referrer-Policy: no-referrer-when-downgrade
+< Strict-Transport-Security: max-age=15552000
+< X-Powered-By: Express
+< Set-Cookie: b2b=s%3AGpS6u-jSd1xnRESN4JRQYxv_XvfavEME.uFlva8NeDZ5jSu4smngaoxUXkRMvy7f2xzM9sH4cwz4; Domain=insights.yahoo.com; Path=/; Expires=Wed, 14 Oct 2020 02:30:11 GMT; HttpOnly; Secure
+< Set-Cookie: B=5jgehatfobshj&b=3&s=t9; expires=Tue, 13-Oct-2021 18:30:11 GMT; path=/; domain=.yahoo.com
+< X-Frame-Options: SAMEORIGIN
+< Age: 1
+< Server: ATS
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Location: https://id.b2b.oath.com/identity/oauth2/authorize?realm=%2Faci&nonce=ggCbsq59sAFDk9J5G9cvBYDP&state=E7uO6ZhziRRAyfYK9DrWG1qX&response_type=code&scope=openid%20profile%20email%20oath%3Ausername%20checkexpiry%20fedidp%3Asub&client_id=15277153-1497-49dd-b9f6-0e1c2da008e5&redirect_uri=https%3A%2F%2Finsights.yahoo.com%2Fauth
+< Content-Length: 0
+< Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://csp.yahoo.com/beacon/csp?src=fendr_insights.yahoo.com
+< Public-Key-Pins-Report-Only: max-age=2592000; pin-sha256="2fRAUXyxl4A1/XHrKNBmc8bTkzA7y4FB/GLJuNAzCqY="; pin-sha256="I/Lt/z7ekCWanjD0Cvj5EqXls2lOaThEA0H2Bg4BT/o="; pin-sha256="K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q="; pin-sha256="Wd8xe/qfTwq3ylFNd3IpaqLHZbh2ZNCLluVzmeNkcpw="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="cGuxAXyFXFkWm61cF4HPWX8S0srS9j0aSqN0k4AP+4A="; pin-sha256="dolnbtzEBnELx/9lOEQ22e6OZO/QNb6VSSX2XHA3E7A="; pin-sha256="i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="; pin-sha256="uUwZgwDOxcBXrQcntwu+kYFpkiVkOaezL0WYEZ3anJc="; includeSubdomains; report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-hpkp-report-only"
+

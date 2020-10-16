@@ -1,0 +1,32 @@
+https://api.digitalhomeservices.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: api.digitalhomeservices.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< Date: Tue, 13 Oct 2020 18:28:38 GMT
+< Age: 2
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: default-src 'none'
+< Set-Cookie: B=6qaks11fobsem&b=3&s=7t; expires=Tue, 13-Oct-2021 18:28:38 GMT; path=/; domain=.yahoo.com
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 139
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: no-referrer-when-downgrade
+< Strict-Transport-Security: max-age=15552000
+< Server: ATS
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /</pre>
+</body>
+</html>

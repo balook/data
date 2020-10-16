@@ -1,0 +1,19 @@
+http://biz.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: biz.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Redirect
+< Content-Type: text/html
+< Content-Language: en
+< Content-Length: 8
+< Age: 0
+< Location: https://biz.yahoo.com/
+< Server: ATS
+< Cache-Control: no-store
+< Set-Cookie: B=5gvp0spfobnh5&b=3&s=c4; expires=Wed, 13-Oct-2021 17:04:37 GMT; path=/; domain=.yahoo.com
+< Referrer-Policy: no-referrer-when-downgrade
+< Date: Tue, 13 Oct 2020 17:04:37 GMT
+
+redirect

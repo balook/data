@@ -1,0 +1,17 @@
+http://media-router-ui71.canary.media.vip.ir2.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: media-router-ui71.canary.media.vip.ir2.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://media-router-ui71.canary.media.vip.ir2.yahoo.com/
+< Date: Tue, 13 Oct 2020 14:43:11 GMT
+< Cache-Control: no-store
+< Content-Type: text/html
+< Set-Cookie: B=10qpbllfobf7v&b=3&s=nj; expires=Wed, 13-Oct-2021 14:43:11 GMT; path=/; domain=.yahoo.com
+< Content-Length: 8
+< Server: ATS
+< Content-Language: en
+
+redirect

@@ -1,0 +1,16 @@
+https://vpn-1-gci.corp.tw1.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: vpn-1-gci.corp.tw1.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Temporary moved
+< Pragma: no-cache
+< Connection: Close
+< Date: Tue, 13 Oct 2020 16:54:19 GMT
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://vpn8-1-gci.corp.tw1.yahoo.com/
+< Content-Length: 0
+< Cache-Control: no-store
+

@@ -1,0 +1,21 @@
+http://in.maps.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: in.maps.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< Cache-Control: max-age=3600, private
+< Location: http://maps.yahoo.com/
+< Age: 0
+< Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+< Server: ATS
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 13 Oct 2020 14:36:45 GMT
+< Set-Cookie: B=9s2uk71fobert&b=3&s=jp; expires=Wed, 13-Oct-2021 14:36:45 GMT; path=/; domain=.yahoo.com; secure
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+

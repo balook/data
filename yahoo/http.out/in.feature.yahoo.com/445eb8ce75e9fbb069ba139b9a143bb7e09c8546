@@ -1,0 +1,362 @@
+https://in.feature.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: in.feature.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Age: 1
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 13 Oct 2020 15:50:33 GMT
+< Vary: Accept-Encoding
+< Vary: X-UA-Device, Accept, Accept-Encoding
+< X-Ua-Compatible: IE=Edge,chrome=1
+< Strict-Transport-Security: max-age=15552000
+< X-Tumblr-Pixel-0: https://px.srvcs.tumblr.com/impixu?T=1602604233&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2luLmZlYXR1cmUueWFob28uY29tLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiLyJ9&U=MGDBFFCAOO&K=ca4fef676ca56cba8e44f3b7ec71abf25da6e60c01686717615704849cdc4cd1--https://px.srvcs.tumblr.com/impixu?T=1602604233&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9pbi5mZWF0dXJlLnlhaG9vLmNvbS8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii8iLCJwb3N0cyI6W3sicG9zdGlkIjoiNjI2MzMwMDc1NTgwNzc2NDQ4IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlk
+< X-Tumblr-Pixel-1: IjoiNjIyOTY2MDM1MTk2MzYyNzUyIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNjIwNzE3MzE2OTUzNTcxMzI4IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTkwOTA4MTg2NTkxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTkwNDM5NzcwMzUxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5NjQyMzI5NTg2IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5NDY5NTIwNzMxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MzY3OTA2ND
+< X-Tumblr-Pixel: 3
+< X-Rid: 22d1a18fd4a2f3eba02035d9b237cee5
+< P3p: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+< X-Ua-Device: desktop
+< Accept-Ranges: bytes
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Content-Type-Options: nosniff
+< X-Tumblr-Pixel-2: QxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MzQ5NTk4ODAxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MDExNTg4OTM2IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9XX0=&U=PCEAKMNPMM&K=d9c9a108ffc0c0e9e30f24da944e58332aa75b4e95e1b0b1b3e31cf3f4d1c97c
+< Link: <https://64.media.tumblr.com/ebbf8697b37785150ce2a5e405c0d67e/8e3dc33504354560-67/s128x128u_c1/2afde8543c47b638913d566fd74d71b6bbeb9532.pnj>; rel=icon
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Server: ATS
+< Content-Type: text/html; charset=UTF-8
+< X-Tumblr-User: yahooin-feature
+
+<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script><!-- Version 1.0.0 --><!-- Last Edit 8 May 2019 --><!-- Basic Guide Start --><!-- Basic Guide End --><!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Yahoo India - Featured Content</title><meta name="description" content=""><meta content="width=device-width, maximum-scale=1" name="viewport"><style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=46a7a9e1e08f1b33790dea4bb521d1c8"><link rel="shortcut icon" href="https://static.tumblr.com/f6ofgcr/nMFpyhfpf/favicon_y19.png"><meta property="og:title" content="Yahoo India - Featured Content" /><meta property="og:image" content="" /><meta property="og:description" content="" /><meta name="description" content="" /><meta property="fb:app_id" content="985196301586300" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Reem+Kufi" rel="stylesheet"><link href="https://static.tumblr.com/f6ofgcr/7qLnb7k5a/normalize.css" rel="stylesheet" type="text/css" /><link href="https://yahoos3.s3.ap-southeast-1.amazonaws.com/yahoo_cm2019_1.1.css" rel="stylesheet" type="text/css" /><link href="https://static.tumblr.com/8xlyl4w/9k4pp2h3f/flickity.css" rel="stylesheet" type="text/css" /><style>
+/* Custom Violators Start */
+.item.violatorname .item_violator{
+	background-color: rgba(64,0,144,0.75);
+	background-image: url(https://static.tumblr.com/f6ofgcr/jABptwlj3/violator2.png);
+	/* image size to be 30px by 30px */
+	display: block;
+}
+/* Custom Violators End */
+/* Theme Customisation Start */
+.gridcontainer .lrecstamp{
+	background-image: url(https://static.tumblr.com/f6ofgcr/j6Pptwk16/lrec_bg.png);
+}
+.main_nav .menu_container {
+    min-height: 0;
+}
+/* Theme Customisation End */
+/* Custom IG embed Start */
+.instagram-media {
+    max-width: 540px !important;
+}
+/* Custom IG emebed End */
+.featuretheme{
+    display: none;
+}
+.tmblr-iframe, .tmblr-iframe--unified-controls, .tmblr-iframe--loaded, .iframe-controls--desktop{
+    display: none !important;
+}
+
+</style><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script><link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=yahooin-feature%26postID=189011588936" /><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=yahooin-feature&postID=189011588936" /><link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=https://in.feature.yahoo.com/post/189011588936/grow-your-savings-through-smart-tax-planning" title="Grow Your Savings Through Smart Tax Planning
+Every year, as it nears December, most people put their minds on saving the &ldquo;dreaded&rdquo; income tax. As a law-abiding citizen, one must file an income tax return annually to determine the tax obligations. As..."/><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><meta name="keywords" content="1197766856,10016274,travel,1197766857,405413" /><!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="yahooin-feature" /><meta name="twitter:title" content="yahooin-feature" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=yahooin-feature&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=yahooin-feature&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=yahooin-feature&amp;referrer=twitter-cards" /><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"ItemList","url":"https:\/\/in.feature.yahoo.com","itemListElement":[{"@type":"ListItem","position":1,"url":"https:\/\/in.feature.yahoo.com\/post\/626330075580776448\/sustainable-travel-experiences-in-australia"},{"@type":"ListItem","position":2,"url":"https:\/\/in.feature.yahoo.com\/post\/622966035196362752\/10-breath-taking-natural-phenomena-found-in-the"},{"@type":"ListItem","position":3,"url":"https:\/\/in.feature.yahoo.com\/post\/620717316953571328\/pause-for-a-second-and-appreciate-the-adorable"},{"@type":"ListItem","position":4,"url":"https:\/\/in.feature.yahoo.com\/post\/190908186591\/10-queensland-experiences-to-try-at-least-once-in"},{"@type":"ListItem","position":5,"url":"https:\/\/in.feature.yahoo.com\/post\/190439770351\/close-to-6-lakh-indian-students-are-studying"},{"@type":"ListItem","position":6,"url":"https:\/\/in.feature.yahoo.com\/post\/189642329586\/how-companies-like-oyo-are-contributing-to-the"},{"@type":"ListItem","position":7,"url":"https:\/\/in.feature.yahoo.com\/post\/189469520731\/how-the-love-of-my-life-transformed-into-someone"},{"@type":"ListItem","position":8,"url":"https:\/\/in.feature.yahoo.com\/post\/189367906441\/get-bowled-over-by-australia-with-airfares"},{"@type":"ListItem","position":9,"url":"https:\/\/in.feature.yahoo.com\/post\/189349598801\/breaking-investment-stereotypes-the-millennial-way"},{"@type":"ListItem","position":10,"url":"https:\/\/in.feature.yahoo.com\/post\/189011588936\/grow-your-savings-through-smart-tax-planning"}],"@context":"http:\/\/schema.org"}</script><link rel="canonical" href="https://in.feature.yahoo.com" /></head><body><!-- Google Tag Manager --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFFK48"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WFFK48');</script><!-- End Google Tag Manager --><script>
+    window.location.href = "https://yahoo.com";
+</script><div class="site_container"><div class="white_container"><!-- Section Break --><div class="main_nav"><div class="desktop_title featuretheme"><a href="/"><img src="https://static.tumblr.com/f6ofgcr/dcYptwlkm/sitelogo.png"></a></div><div class="menuright_container"><a href="https://yahoo.com"><img src="https://static.tumblr.com/f6ofgcr/SrLpyhfqb/yahoo_logo.png" class="yahoologo"></a><div class="hamburger_container"><div class="hamburgericon"><span></span><span></span><span></span><span></span></div></div></div><div class="desktop_menu_container featuretheme"><a href="#">Design Ideas</a><a href="#">Tips & Tricks</a><a href="#">Celebrity Homes</a><a href="#">Decorating</a></div><div class="readbar_container"><div class="readbar_progress"></div></div><div class="mobile_share_container"><div class="addthis_inline_share_toolbox_64p4"></div></div><div class="menu_container"><div class="mobile_spon_container"></div><!--
+				<a href="#">Design Ideas</a><a href="#">Tips & Tricks</a><a href="#">Celebrity Homes</a><a href="#">Decorating</a><div class="hr"></div>
+				--><!--
+				<a href="https://policies.oath.com/in/en/oath/privacy/index.html" target="_blank">Privacy Policy</a><a href="https://policies.oath.com/in/en/oath/terms/otos/index.html" target="_blank">Terms of Use</a>
+				--><a href="https://mail.yahoo.com">Yahoo Mail</a><a href="https://yahoo.com">Yahoo India</a><div class="desktop_spon_container">
+					Follow <div class="follow_icon"></div><a href="https://www.facebook.com/yahooindia/" target="_blank"><img src="https://static.tumblr.com/f6ofgcr/SrLpyhfqb/yahoo_logo.png"></a><span class="sponplatform">on Facebook</span></div></div></div><!-- Section Break --><div class="mobile_title"><img src="https://static.tumblr.com/f6ofgcr/sL6ptwlks/sitelogo_mobile.png"></div><!-- Section Break --><div class="homebanner_container"><div class="banner_frame"><div class="bannercontent" style="background-image: url(images/banner1.jpg);"><div class="bannertext_container"><h1>Using nudes & neutrals: Pairing made easy</h1><div class="bannerdesc">Neutral colours have become a hit in Scandinavia and this trend has been spreading around the world like wildfire. Here are 8 tips and tricks to achieve this sublime look!</div><a class="ctabutton" href="#">Get Inspired</a><div class="bannercounter"><div class="counterdivider"><div class="countercurrent">1</div><div class="countertotal"></div></div></div></div></div><div class="bannercontent" style="background-image: url(images/banner2.jpg);"><div class="bannertext_container"><h1>Second banner slide!</h1><div class="bannerdesc">Neutral colours have become a hit in Scandinavia and this trend has been spreading!</div><a class="ctabutton" href="#">Get Inspired</a><div class="bannercounter"><div class="counterdivider"><div class="countercurrent">2</div><div class="countertotal"></div></div></div></div></div><div class="bannercontent" style="background-image: url(images/banner3.jpg);"><div class="bannertext_container"><h1>Here are 8 tips and tricks to achieve this sublime look!</h1><div class="bannerdesc"></div><a class="ctabutton" href="#">Get Inspired</a><div class="bannercounter"><div class="counterdivider"><div class="countercurrent">3</div><div class="countertotal"></div></div></div></div></div></div></div><!-- Section Break --><div class="grid_section"><div class="hr"></div><h2>Get inspired today.</h2><div class="griddesc">
+				Tired of the minimalism look? Try maximalism – more is always more. The trick is to minimise what you have most of and maximise what you have little of.
+			</div><div class="gridcontainer"><div class="lrecstamp"><div class="lreccontainer"></div></div><div class="item preparegrid" id=""><a href="#"><div class="item_image"><img src="images/content4.jpg"></div><div class="item_desc"><span class="item_cat">Design Ideas</span><h3>Setting up a moodboard is easy as pie</h3></div><div class="item_violator"></div><div class="item_icon"></div><div class="item_raw grabimage">asdasdasdasdasd</div></a></div><div class="item preparegrid" id=""><a href="#"><div class="item_image"><img src="images/content5.jpg"></div><div class="item_desc"><span class="item_cat">TIPS & TRICKS</span><h3>Gallery wall – putting up paintings the right way</h3></div><div class="item_violator"></div><div class="item_icon"></div><div class="item_raw grabimage">asdasdasdasdasd</div></a></div><div class="item preparegrid video" id=""><a href="#"><div class="item_image"><img src="images/content9.jpg"></div><div class="item_desc"><span class="item_cat">Celebrity Homes</span><h3>Tan Kheng Hwa’s beautiful Andalusian kitchen in a corner of Joo Chiat district</h3></div><div class="item_violator"></div><div class="item_icon"></div><div class="item_raw grabimage">asdasdasdasdasd</div></a></div><div class="item preparegrid singlevideo doublewidth" id=""><a href="#"><div class="item_image"><img src="images/content3.jpg"></div><div class="item_desc"><span class="item_cat">TIPS & TRICKS</span><h3>5 ways to look like a Tokyo homestay</h3></div><div class="item_violator"></div><div class="item_icon"></div><div class="item_raw grabimage">asdasdasdasdasd</div></a></div><div class="item preparegrid slideshow violatorname" id=""><a href="#"><div class="item_image"><img src="images/content6.jpg"></div><div class="item_desc"><span class="item_cat">TIPS & TRICKS</span><h3>Gallery wall – putting up paintings the right way</h3></div><div class="item_violator"></div><div class="item_icon"></div><div class="item_raw grabimage">asdasdasdasdasd</div></a></div><div class="item preparegrid" id=""><a href="#"><div class="item_image"><img src="images/content7.jpg"></div><div class="item_desc"><span class="item_cat">Decorating</span><h3>8 ways to change entire looks with simple touches</h3></div><div class="item_violator"></div><div class="item_icon"></div><div class="item_raw grabimage">asdasdasdasdasd</div></a></div></div></div><!-- Section Break --><div class="brand_footer_container featuretheme">
+			In collaboration with<br><img src="https://static.tumblr.com/f6ofgcr/jyxptwlgu/yahoo_logo.png"></div></div><div class="footer_container"><div class="footer_left"><!--
+			Yahoo 2020 All Rights Reserved ©
+			--></div><div class="footer_right"><!--
+			<a href="https://policies.oath.com/in/en/oath/terms/otos/index.html" target="_blank">Terms of Use</a><a href="https://policies.oath.com/in/en/oath/privacy/index.html" target="_blank">Privacy Policy</a>
+			--></div></div></div><div class="background_container"><div class="background_layer"><img src=""><div class="background_gradient"></div></div></div><div class="output" id='advertout'></div><div class="output" id='igout'></div><div class="output" id='quizout'></div><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68928646-19', 'auto');
+  ga('send', 'pageview');
+
+</script><script src="https://static.tumblr.com/8xlyl4w/OT8pp2h2e/flickity.pkgd.min.js" type="text/javascript"></script><script src="https://static.tumblr.com/8xlyl4w/LjQpp2h2w/packery.pkgd.min.js" type="text/javascript"></script><script src="https://static.tumblr.com/f6ofgcr/mobnbae76/jquery.infinitescroll.min.js"></script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d1392dcc164f19f"></script> 
+<script type="text/javascript" src="https://consent.cmp.oath.com/cmp3p.js"></script><script type="text/javascript">
+// GDPR
+window.__cmp('init', {
+    gdprAppliesGlobally: false,
+    uiUrl: 'https://s3-ap-southeast-1.amazonaws.com/yahoos3/gdpr/cmpui.html'
+});
+window.__cmp('getConsentData', null, function (response, success) {
+    var el = document.getElementById('getConsentData-response');
+    console.log(JSON.stringify(response, null, 4));
+});
+//
+/* General Script Starts */
+
+/* Global Var */
+var pckry; //grid container
+var scrolled; //distance scrolled by browser
+var desktopnavslim; //distance to change nav to slim
+var browserheight;
+var contentarea;
+
+function getGlobalVar(){
+	scrolled = $(window).scrollTop();
+	
+	desktopnavslim = $('.homebanner_container').height();
+	
+    
+	if(desktopnavslim == null || desktopnavslim == 0){
+		desktopnavslim = 10; //min cut off before change (for when no banner)
+	}
+	browserheight = $(window).height();
+}
+function isInArray(value, array) {
+  return array.indexOf(value) > -1;
+}
+function packeryoverwrite(){
+    // overwrite Packery methods
+    var __resetLayout = Packery.prototype._resetLayout;
+    Packery.prototype._resetLayout = function() {
+    __resetLayout.call( this );
+    // reset packer
+    var parentSize = getSize( this.element.parentNode );
+    var colW = this.columnWidth + this.gutter;
+    this.fitWidth = Math.floor( ( parentSize.innerWidth + this.gutter ) / colW ) * colW;
+    this.packer.width = this.fitWidth;
+    this.packer.height = Number.POSITIVE_INFINITY;
+    this.packer.reset();
+    };
+
+    Packery.prototype._getContainerSize = function() {
+    // remove empty space from fit width
+    var emptyWidth = 0;
+    for ( var i=0, len = this.packer.spaces.length; i < len; i++ ) {
+        var space = this.packer.spaces[i];
+        if ( space.y === 0 && space.height === Number.POSITIVE_INFINITY ) {
+            emptyWidth += space.width;
+        }
+    }
+    return {
+        width: this.fitWidth - this.gutter - emptyWidth,
+        height: this.maxY - this.gutter
+    };
+    };
+    // always resize
+    Packery.prototype.needsResizeLayout = function() {
+        return true;
+    };
+}
+function packeryint(){
+    var container = document.querySelector('.gridcontainer');
+    pckry = new Packery( container, {
+        itemSelector: '.item',
+        stamp: ".lrecstamp",
+        gutter: 10
+    });
+    //$(".gridcontainer").css('visibility', 'visible');
+}
+function indexNavbar(){
+	if (scrolled>desktopnavslim){
+		$('.main_nav').addClass('smallnav');
+	}
+	else{
+		$('.main_nav').removeClass('smallnav');
+	}
+}
+function menu(){
+    $(".hamburger_container").click(function() {
+        if($(".hamburger_container").hasClass("menuopen")){
+            $(".hamburger_container").removeClass("menuopen");
+            $(".menu_container").removeClass("menuopen");
+            $(".main_nav").removeClass("menuopen");
+        }
+        else{
+            $(".hamburger_container").addClass("menuopen");
+            $(".menu_container").addClass("menuopen");
+            $(".main_nav").addClass("menuopen");
+        }
+    });
+}
+function imagesizeReduce(originalurl){
+    //Reducing loaded img size start to 250
+    var imgcontainer = document.createElement('a');
+    imgcontainer.href = originalurl;
+    var imgdomain = imgcontainer.host.slice(-10);
+    if(imgdomain=="tumblr.com"){
+        var img_trimmed = originalurl.slice(0, originalurl.lastIndexOf("_")-originalurl.length);
+        var img_type = originalurl.slice(-4);
+        return img_trimmed+"_250"+img_type;
+    }
+    else{
+        return originalurl;
+    }
+    //Reducing loaded img size end
+}
+DARLA_CONFIG = {
+  positions: {
+        "MAST":{
+            id:"MAST",
+            w:970,
+            autoFetch:false,
+            fr:"expIfr_exp",
+            supports:{
+                "exp-ovr": 1,
+                "exp-push": 1,
+                "resize-to": 1,
+                "cmsg": 1
+            },
+            enable:true,
+            staticLayout:false,
+            fdb:false,
+            closeBtn:{
+                "mode":2,
+                "useShow":1,
+                "adc":0
+            },
+            metaSize:true,
+            clean:"BOXMAST",
+            dest:"MASTAD",
+            fallback:null,
+            failed:false
+        },
+        "DEFAULT": {
+            supports: {
+                "bg": 1,
+                "exp-ovr": 1,
+                "exp-push": 0,
+                "lyr": 0,
+                "cmsg":1
+            }
+        }
+    }
+}
+function getAdv(){
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+
+    var screensize = window.outerWidth;
+    if(screensize<window.innerWidth){
+        screensize = window.innerWidth;
+    }
+    if(articletags[0] != null){
+        var basecall = "https://fc.yahoo.com/sdarla/php/client.php?l=";
+        var mastAdvert = "MAST{dest:MASTAD;asz:970x250}";
+        var lrecOneAvert = "LREC{dest:lrec_one;asz:300x250}";
+        var lrecThreeAvert = "LREC3{dest:lrec_m;asz:300x250}";
+        if(screensize>990){
+            s.src = basecall+lrecOneAvert+","+mastAdvert+"&f="+articletags[0];
+        }
+        else if(screensize<=990 && screensize>770){
+            s.src = basecall+lrecOneAvert+"&f="+articletags[0];
+        }
+        else{
+            s.src = basecall+lrecThreeAvert+"&f="+articletags[0];
+        }
+    }
+    document.getElementById("advertout").innerHTML = "";
+    document.getElementById("advertout").appendChild(s);
+}
+/* General Script Ends */
+/* Index Script Starts */
+
+function indexbanner(){
+    $('.banner_frame').flickity({
+        autoPlay: 7000,
+        wrapAround: true,
+        pauseAutoPlayOnHover: false,
+        prevNextButtons: true,
+        cellSelector: '.bannercontent',
+        selectedAttraction: 0.05,
+		friction: 0.5
+    });
+
+    var desktopbanner = $('.banner_frame').data('flickity');
+    $('.countertotal').text(desktopbanner.cells.length);
+
+    $('.homebanner_container').addClass("bannercount"+desktopbanner.cells.length);
+
+	var bgurl = $('.is-selected').css('background-image');
+	var bgurlclean = bgurl.replace('url(','').replace(')','').replace(/\"/gi, "");
+	$('.background_layer').css("background-image", bgurl);
+	$('.background_layer').find('img').attr("src", bgurlclean);
+ 
+    $('.banner_frame').on( 'settle.flickity', function( event, index ) {
+    	var bgurl = $('.is-selected').css('background-image');
+    	var bgurlclean = bgurl.replace('url(','').replace(')','').replace(/\"/gi, "");
+    	$('.background_layer').css("background-image", bgurl);
+    	$('.background_layer').find('img').attr("src", bgurlclean);
+
+    });
+}
+
+/* Index Script Ends */
+/* Permapage Script Starts */
+
+/* Permapage Script Ends */
+$(document).ready(function() {
+	packeryoverwrite();
+    indexbanner();
+	packeryint();
+    
+	menu();
+	getGlobalVar();
+	getAdv();
+});
+$(window).scroll(function() {
+	scrolled = $(window).scrollTop();
+	indexNavbar();
+    
+});
+$(window).resize(function(){
+	getGlobalVar();
+});
+</script><!-- RAPID --><script type="text/javascript" src="https://s.yimg.com/ss/rapid-3.41.3.js"></script><script type="text/javascript" src="https://s.yimg.com/ss/rapidworker-1.2.js"></script><script type="text/javascript">
+new YAHOO.i13n.Rapid({spaceid:1197784752, tracked_mods:['div1', 'div2'], client_only:1});
+</script><!-- END RAPID --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
+                              "https://in.feature.yahoo.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript" nonce="mTKoRAVReo1LTJpX3rL7qav045o">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1602604233&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2luLmZlYXR1cmUueWFob28uY29tLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiLyJ9&U=NPHAJJKHCG&K=0c39bc2a89022a7ef3fb07cf9d45f933e01c4cc72676cd7d7cba098cefa98b16&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1602604233&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2luLmZlYXR1cmUueWFob28uY29tLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiLyIsIm5vc2NyaXB0IjoxfQ==&U=NPHAJJKHCG&K=5b91c289cc2d46b5c283eb6e32922a40d53f1cf7ee038d5abb138d1e67a0c868&R="></noscript><script type="text/javascript" nonce="mTKoRAVReo1LTJpX3rL7qav045o">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1602604233&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9pbi5mZWF0dXJlLnlhaG9vLmNvbS8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii8iLCJwb3N0cyI6W3sicG9zdGlkIjoiNjI2MzMwMDc1NTgwNzc2NDQ4IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNjIyOTY2MDM1MTk2MzYyNzUyIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNjIwNzE3MzE2OTUzNTcxMzI4IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTkwOTA4MTg2NTkxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTkwNDM5NzcwMzUxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5NjQyMzI5NTg2IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5NDY5NTIwNzMxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MzY3OTA2NDQxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MzQ5NTk4ODAxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MDExNTg4OTM2IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9XX0=&U=GDHFJNAHMH&K=809508f91eb121ba2a98ab6a0ee3e4a5bf0190d8a7c737bb48f92f5abeddbc0a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1602604233&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9pbi5mZWF0dXJlLnlhaG9vLmNvbS8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii8iLCJwb3N0cyI6W3sicG9zdGlkIjoiNjI2MzMwMDc1NTgwNzc2NDQ4IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNjIyOTY2MDM1MTk2MzYyNzUyIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNjIwNzE3MzE2OTUzNTcxMzI4IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTkwOTA4MTg2NTkxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTkwNDM5NzcwMzUxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5NjQyMzI5NTg2IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5NDY5NTIwNzMxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MzY3OTA2NDQxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MzQ5NTk4ODAxIiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTg5MDExNTg4OTM2IiwiYmxvZ2lkIjozMTY0OTQwMTksInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=GDHFJNAHMH&K=161285e82e9bd9071bd7fb1f8f8c66832f459a5f6ffc7cc5342cde23a8207a3d&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:true,&quot;tumblelogBundleSrc&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=de04ebc7a4a63db35081cfb75e016ba6&quot;,&quot;tumblelogName&quot;:&quot;yahooin-feature&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;Yahoo India - Featured Content&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/64.media.tumblr.com\/ebbf8697b37785150ce2a5e405c0d67e\/8e3dc33504354560-67\/s64x64u_c1\/fb1c5ac62f310e2b17dcf161469e17bb8ee48ffa.pnj&quot;,&quot;tumblelogHost&quot;:&quot;https:\/\/in.feature.yahoo.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:true,&quot;themeHeaderImage&quot;:&quot;https:\/\/64.media.tumblr.com\/ceb0aa9501fb5df65b643121e98aa573\/8e3dc33504354560-be\/s2048x3072\/42257a287cf1954fd8a3279db61b9f81ea4ee889.png&quot;,&quot;themeBackgroundColor&quot;:&quot;#FFFFFF&quot;,&quot;themeTitleColor&quot;:&quot;#444444&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:false,&quot;adsEnabled&quot;:false,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:true,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;blog&quot;,&quot;currentPage&quot;:1,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/in.feature.yahoo.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;https:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dtumblr_new_iframe&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=tumblr_new_iframe\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;tumblr_new_iframe&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1}},&quot;Flags&quot;:{&quot;features&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJzYWZlX21vZGUiOnRydWUsInNhZmVfbW9kZV9lbmFibGVkIjp0cnVlLCJrZXljb21tYW5kX2F1dG9fcGFnaW5hdGUiOnRydWUsImxvZ2dlZF9vdXRfc2VhcmNoIjp0cnVlLCJrcmFrZW5fd2ViX2xvZ2dpbmdfbGlicmFyeSI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwicHJvamVjdF94X2FwcGVhbCI6dHJ1ZSwicHJvamVjdF94X3dlYl9zZW5zaXRpdmVfY292ZXJzIjp0cnVlLCJzYWZlX21vZGVfb3duX3Bvc3QiOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJoaWRlX2RlZmF1bHRfaGVhZGVyc19ibG9nX2NhcmRzIjp0cnVlLCJub3RpZmljYXRpb25fcmVwbHlfbGlua190b19ub3RlcyI6dHJ1ZSwidHlwaW5nX2luZGljYXRvcl93cml0ZSI6dHJ1ZSwiZ2Rwcl9ndWNlX2lzX3JlcXVpcmVkIjp0cnVlLCJ0dW1ibHJfdmlkZW9fc3BvbnNvcmVkX2RheSI6dHJ1ZSwiY2FwdGNoYTp1c2VfcmVjYXB0Y2hhMiI6dHJ1ZSwibGl0dGxlX3Npc3RlciI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJyZWRwb3BfcG9zdF9mb3JtX21vYmlsZV9jcmVhdGUiOnRydWUsImdkcHJfcXVhbnRjYXN0X2NtcCI6dHJ1ZSwiZGFybGFfYWRfZmVlZGJhY2siOnRydWUsInN0YXR1c19pbmRpY2F0b3IiOnRydWUsImNvbnZlcnNhdGlvbmFsX25vdGlmaWNhdGlvbnMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsImxpdmVwaG90b3MiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1602604233000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=de04ebc7a4a63db35081cfb75e016ba6"></script></body></html>

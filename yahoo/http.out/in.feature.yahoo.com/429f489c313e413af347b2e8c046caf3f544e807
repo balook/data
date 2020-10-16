@@ -1,0 +1,24 @@
+http://in.feature.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: in.feature.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=UTF-8
+< Location: https://in.feature.yahoo.com/#_=_
+< Server: ATS
+< Date: Tue, 13 Oct 2020 15:50:32 GMT
+< Age: 2
+< P3p: CP="Tumblr's privacy policy is available here: https://www.tumblr.com/policy/en/privacy"
+< Vary: X-UA-Device, Accept
+< X-Ua-Compatible: IE=Edge,chrome=1
+< X-Ua-Device: desktop
+< X-Frame-Options: deny
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=15552001
+< Referrer-Policy: no-referrer-when-downgrade
+< Content-Length: 0
+< X-Rid: a7e9bc572343afd7b716048d50b5abd3
+

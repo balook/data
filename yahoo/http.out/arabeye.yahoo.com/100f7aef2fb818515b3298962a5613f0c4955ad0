@@ -1,0 +1,23 @@
+https://arabeye.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: arabeye.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600, private
+< Age: 0
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< Location: https://maktoob.yahoo.com/
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+< Set-Cookie: B=daoalp5fobrke&b=3&s=ps; expires=Wed, 13-Oct-2021 18:14:38 GMT; path=/; domain=.yahoo.com; secure
+< Content-Length: 0
+< Server: ATS
+< X-Frame-Options: DENY
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 13 Oct 2020 18:14:38 GMT
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+

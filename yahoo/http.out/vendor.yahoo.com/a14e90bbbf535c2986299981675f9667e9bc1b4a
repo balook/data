@@ -1,0 +1,159 @@
+https://vendor.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: vendor.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: B=fct887hfobsep&b=3&s=j2; expires=Wed, 13-Oct-2021 18:28:41 GMT; path=/; domain=.yahoo.com; secure
+< Set-Cookie: vendorTool=value1%3D188740175f85f1d9e4e011.63672018%26value2%3DwlwkvDaY2eEPPLM0lgMJCg--; path=/
+< Vary: Accept-Encoding
+< Referrer-Policy: no-referrer-when-downgrade
+< Strict-Transport-Security: max-age=15552000
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Xss-Protection: 1; mode=block
+< P3p: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< X-Frame-Options: DENY
+< Expires: Tue, 13 Oct 2020 18:38:41 GMT
+< Cache-Control: max-age=600,private
+< Content-Type: text/html; charset=UTF-8
+< Age: 2
+< X-Content-Type-Options: nosniff
+< Pragma: private
+< Date: Tue, 13 Oct 2020 18:28:41 GMT
+< Server: ATS
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Procurement Vendor Portal</title>
+<link rel="stylesheet" type="text/css" href="https://yui-s.yahooapis.com/combo?/2.6.0/build/reset-fonts-grids/reset-fonts-grids.css&/2.6.0/build/assets/skins/sam/skin.css">
+<link rel="stylesheet" type="text/css" href="css/vendor_style.css?v=2">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<link rel="stylesheet" type="text/css" href="https://yui-s.yahooapis.com/combo?/2.9.0/build/fonts/fonts-min.css" />
+<script type="text/javascript" src="https://yui-s.yahooapis.com/combo?/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="https://yui-s.yahooapis.com/combo?/2.9.0/build/json/json-min.js"></script>
+<script type="text/javascript" src="https://yui-s.yahooapis.com/combo?/2.9.0/build/container/container-min.js"></script>
+<script type="text/javascript" src="https://yui-s.yahooapis.com/combo?/2.9.0/build/connection/connection-min.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body class="yui-skin-sam">
+<!-- START: Document -->
+<div id="doc2">
+	<!-- START: Header -->
+	<div id="header-wrapper">
+    <!-- top menu -->
+    <div id="top-menu">
+    <div id="top-inner">
+       <div id="top-left">
+            				<div id="signin"><a href="vendor_login.php" class="topMenuSmall">Sign In</a></div>
+              </div></div></div>
+    
+    <!-- top menu -->
+	<!-- Logo -->
+	<div class="st m">
+	<div id="logo">
+	
+	<div id="content" style="background-color: #000000">
+		<div id="center"><img src="/images/vz-logo.png" style="height:74px"></img><h1>Procurement Vendor Portal</h1></div>
+	</div>
+	</div>
+	</div>	
+	<!-- Logo -->
+	<div id="sub-menu">
+    <div id="sub-inner">
+      <ul>
+	 
+        </ul>
+    </div>
+  </div>
+	</div>        
+      <!-- END: Header -->
+<body class="yui3-skin-sam">
+<!-- START: Document -->
+       <!-- START: Content -->       
+      
+	   <div class="wrapper">
+		         <!-- START: New Vendor Registration page-->
+  <div class="wrappertop"></div>
+  
+<script type="text/javascript">
+	function OnSubmitLoginForm(token) {		
+		var validate_results = validate_vendorLoginForm();
+		if (validate_results) {
+			document.getElementById('recaptchaToken').value = token;
+        	document.vendorLoginForm.submit();
+    	} 
+	}
+</script>	
+  
+<form name="vendorLoginForm" id="vendorLoginForm" method="POST" action="vendor_login.php">
+	<div class="wrappermiddle">
+    <h2 style="color: #888;">Login</h2>
+    <div class="username_input">
+      <div class="username_inputleft"></div>
+      <div class="username_inputmiddle">
+        <input type="text" name="username" class="userInput" value="User Name" onFocus="if(this.value == 'User Name')  this.value = ''"  autocomplete="off" /><img class="user" src="images/emailIcon.png" alt=""> 
+    </div>
+      <div class="username_inputright"></div>
+      	<div id="err_username" class="init-wrapper-error"></div>
+    </div>
+    <div class="password_input">
+      <div class="password_inputleft"></div>
+      <div class="password_inputmiddle">
+        <input type="password" name="password" class="userInput" value="Password" onFocus="if(this.value == 'Password') this.value = ''" autocomplete="off" title="* Password must contain 8 to 64 characters!
+* Password must contain at least one number (0-9)!
+* Password must contain at least one lowercase letter (a-z)!
+* Password must contain at least one UPPERCASE letter (A-Z)!
+* Password must contain at least one special character (!@#$%^&*-+=)!
+* Password should not be same as User Name!">
+        <img class="password" src="images/passwordIcon.png" alt="">
+       </div>
+      <div class="password_inputright"></div>
+       <div id="err_password" class="init-wrapper-error"></div>
+    </div>
+    <div class="submit">
+    	<button class="g-recaptcha"
+				data-sitekey="6LfNWTMUAAAAAKK4hyNwWepfZEpKt-rha5ydqfRw"
+				data-callback="OnSubmitLoginForm" 
+				id="btnSubmit" 
+				name="btnSubmit" 
+				value="Sign In" 
+				type="submit">Sign In
+		</button>
+		<input type="hidden" name="processForm" id="processForm" value="1">
+		<input type="hidden" name="recaptchaToken" id="recaptchaToken" value="">
+    </div>
+    <div class="links_left"> <a href="vendor_forgot_pass.php">Forgot your Password?</a> </div>
+  </div>
+  <div class="wrapperbottom"></div>
+  
+</form>
+</div>
+
+	
+
+
+    	         
+	      <!-- END: Content -->  
+<script src="js/vendor_login.js"></script>
+ <!-- START: Footer -->  
+         <div class="footer">Copyright &copy; 2020 Verizon Media Software Development</div>
+          <!-- END: Footer -->  
+         </div>
+         <div id="dialog" title="Basic dialog" >
+  			<!-- Place holder for dialog box -->
+		</div>
+<!--END: Document -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
+<!-- prod-vendor027-os.corpapps.gq1.yahoo.com Tue Oct 13 18:28:41 UTC 2020 -->

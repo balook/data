@@ -1,0 +1,11 @@
+https://huffpo-origin.qa.media.yahoo.com/
+
+> GET / HTTP/1.1
+> Host: huffpo-origin.qa.media.yahoo.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 410 Gone
+< Cache-Control: no-cache
+< Date: Tue, 13 Oct 2020 15:42:40 GMT
+< Content-Length: 0
+
