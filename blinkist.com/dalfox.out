@@ -1,0 +1,285 @@
+[*] Loaded /opt/sample-grep.json file for grepping
+[*] Using pipeline mode
+[*] Loaded 9023 target urls
+[*] Target URL: https://blinkist.com
+[*] Vaild target [ code:301 / size:0 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 26 testing point in DOM Mining
+[G] Found dalfox-authorization-basic via built-in grepping / original request
+    basic header__sprite
+    basic footer__logo-sprite
+[POC] [G][BUILT-IN/dalfox-authorization-basic/GET] https://blinkist.com
+[G] Found dalfox-google-captcha via built-in grepping / original request
+    6Lw1FUngjFpwKzzKt37kyv0CpkX6B5U-vTJtpBr7
+    6LfX0pwhZmUOZkhsYR9nsgkR0PSx8PeeBY2Oo0h8
+    6LzyzamiVRO054gabge7HWLW1Qw5-MEUH2Ud3L7V
+    6Ld0J2fJjl8Q07JDZkBccLdLi80oZhEiReq5lkJ-
+    6Lf84LKK1DGFQvhxUxwkkmIxeubLvMoF1T7Ws04q
+    6LUi09Pxl9XZrSjZSKfp1u995ZaTwsh7PC3uCQ-N
+    6L78f5grBPuNSgdgQh7xUEziSQCHhgY4viLna0vP
+    6LfPoisUAAAAAH1qAV6DFoNXX6TwpHQ2Ds2xNCUy
+[POC] [G][BUILT-IN/dalfox-google-captcha/GET] https://blinkist.com
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: http://blinkist.com
+[*] Vaild target [ code:301 / size:0 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 26 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: http://blinkist.com/
+[*] Vaild target [ code:301 / size:0 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 26 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: http://blinkist.com:80/
+[*] Vaild target [ code:301 / size:0 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 26 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/%e2%80%8bbiggerpockets
+[*] Vaild target [ code:404 / size:29847 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: http://www.blinkist.com:80/%e2%80%8e
+[*] Vaild target [ code:301 / size:0 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/1
+[*] Vaild target [ code:404 / size:29806 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: http://blinkist.com/25minuter
+[*] Vaild target [ code:301 / size:0 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 18 testing point in DOM Mining
+[G] Found dalfox-aws-s3 via built-in grepping / original request
+    s3.amazonaws.com/
+[POC] [G][BUILT-IN/dalfox-aws-s3/GET] http://blinkist.com/25minuter
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/2boredguys
+[*] Vaild target [ code:302 / size:504 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 18 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/3
+[*] Vaild target [ code:404 / size:29806 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: http://www.blinkist.com/404
+[*] Vaild target [ code:301 / size:0 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/412
+[*] Vaild target [ code:404 / size:29808 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] X-Frame-Options is SAMEORIGIN
+[I] Content-Type is text/html; charset=utf-8
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/416
+[*] Vaild target [ code:404 / size:29808 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/417
+[*] Vaild target [ code:404 / size:29808 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/419
+[*] Vaild target [ code:404 / size:29808 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Static analysis done ✓
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/8
+[*] Vaild target [ code:404 / size:29806 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[*] BAV analysis done ✓
+[*] Static analysis done ✓
+[I] Found 0 testing point in DOM Mining
+[*] Parameter analysis  done ✓
+[I] Content-Type is text/html; charset=utf-8
+[I] X-Frame-Options is SAMEORIGIN
+[*] Generate XSS payload and optimization.Optimization.. 🛠
+[*] Start XSS Scanning.. with 33 queries 🗡
+[*] Finish :D
+[*] Target URL: https://www.blinkist.com/?utm_source=outbrain&utm_medium=paid&utm_campaign=20170814_ou_pro_homepage_desktop_universal&utm_content=006dc903c70c95f113aaad2332137dab6a&utm_term=00cfdfd8d9baece9967efb1017651948d1&
+[*] Vaild target [ code:200 / size:506110 ]
+[*] Using dictionary mining option [list=GF-Patterns] 📚⛏
+[*] Using DOM mining option 📦⛏
+[*] Start BAV(Basic Another Vulnerability) analysis / [sqli, ssti, OpenRedirect]  🔍
+[*] Start static analysis.. 🔍
+[*] Start parameter analysis.. 🔍
+[I] Found 26 testing point in DOM Mining
+[*] Parameter analysis  done ✓
